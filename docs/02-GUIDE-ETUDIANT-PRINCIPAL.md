@@ -74,11 +74,11 @@ Ce cours vous apprendra à créer et déployer un **portfolio professionnel mode
 
 | Outil | Description | Lien de Téléchargement |
 |-------|-------------|------------------------|
-| **VS Code** | Éditeur de code | [code.visualstudio.com](https://code.visualstudio.com) |
-| **Git** | Contrôle de version | [git-scm.com](https://git-scm.com) |
-| **Navigateur** | Chrome ou Firefox | [google.com/chrome](https://google.com/chrome) |
-| **Compte GitHub** | Hébergement de code | [github.com/signup](https://github.com/signup) |
-| **Compte Vercel** | Déploiement | [vercel.com/signup](https://vercel.com/signup) |
+| VS Code | Éditeur de code | [code.visualstudio.com](https://code.visualstudio.com) |
+| Git | Contrôle de version | [git-scm.com](https://git-scm.com) |
+| Navigateur | Chrome ou Firefox | [google.com/chrome](https://google.com/chrome) |
+| Compte GitHub | Hébergement de code | [github.com/signup](https://github.com/signup) |
+| Compte Vercel | Déploiement | [vercel.com/signup](https://vercel.com/signup) |
 
 ### Extensions VS Code Recommandées
 
@@ -283,14 +283,14 @@ git log
 
 | Critère | Points | Description |
 |---------|--------|-------------|
-| **Structure** | 15 | Organisation professionnelle des fichiers |
-| **HTML** | 15 | Sémantique, accessibilité |
-| **CSS** | 20 | Design moderne, responsive |
-| **JavaScript** | 20 | Fonctionnalités interactives |
-| **Git** | 10 | Commits réguliers et messages clairs |
-| **Déploiement** | 10 | Site en ligne (GitHub Pages OU Vercel) |
-| **Documentation** | 5 | README.md complet |
-| **Originalité** | 5 | Personnalisation et créativité |
+| Structure | 15 | Organisation professionnelle des fichiers |
+| HTML | 15 | Sémantique, accessibilité |
+| CSS | 20 | Design moderne, responsive |
+| JavaScript | 20 | Fonctionnalités interactives |
+| Git | 10 | Commits réguliers et messages clairs |
+| Déploiement | 10 | Site en ligne (GitHub Pages OU Vercel) |
+| Documentation | 5 | README.md complet |
+| Originalité | 5 | Personnalisation et créativité |
 
 ### Mini-Projets (20 points chacun)
 
@@ -454,19 +454,19 @@ console.log('Hello World!');
 
 | Semaine | Contenu | Livrables |
 |---------|---------|-----------|
-| **1** | HTML & CSS Bases | Page statique |
-| **2** | JavaScript Basics | Interactions simples |
-| **3** | Git & GitHub | Premier dépôt |
-| **4** | Responsive Design | Site adaptable |
+| 1 | HTML & CSS Bases | Page statique |
+| 2 | JavaScript Basics | Interactions simples |
+| 3 | Git & GitHub | Premier dépôt |
+| 4 | Responsive Design | Site adaptable |
 
 ### Mois 2: Projet & Déploiement
 
 | Semaine | Contenu | Livrables |
 |---------|---------|-----------|
-| **5** | Chatbot & Animations | Features avancées |
-| **6** | GitHub Pages | Site déployé #1 |
-| **7** | Vercel | Site déployé #2 |
-| **8** | Optimisation & Présentation | Projet final |
+| 5 | Chatbot & Animations | Features avancées |
+| 6 | GitHub Pages | Site déployé #1 |
+| 7 | Vercel | Site déployé #2 |
+| 8 | Optimisation & Présentation | Projet final |
 
 ---
 

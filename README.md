@@ -249,15 +249,15 @@ Ce projet inclut **8 guides pédagogiques ultra-détaillés** pour apprendre:
 
 | Métrique | Valeur |
 |----------|--------|
-| **Lignes de HTML** | ~630 |
-| **Lignes de CSS** | ~1560 |
-| **Lignes de JavaScript** | ~780 |
-| **Lignes de Documentation** | ~4000+ |
-| **Total** | **~7000+ lignes** |
-| **Fichiers** | 17 |
-| **Guides Documentation** | 9 |
-| **Diagrammes Mermaid** | 15+ |
-| **Questions Chatbot** | 10+ |
+| Lignes de HTML | ~630 |
+| Lignes de CSS | ~1560 |
+| Lignes de JavaScript | ~780 |
+| Lignes de Documentation | ~4000+ |
+| Total | ~7000+ lignes |
+| Fichiers | 17 |
+| Guides Documentation | 9 |
+| Diagrammes Mermaid | 15+ |
+| Questions Chatbot | 10+ |
 
 ---
 

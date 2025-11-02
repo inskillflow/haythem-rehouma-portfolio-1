@@ -262,15 +262,15 @@ const chatbotKnowledge = {
 
 | Métrique | Valeur |
 |----------|--------|
-| **Lignes de HTML** | ~630 |
-| **Lignes de CSS** | ~1560 |
-| **Lignes de JavaScript** | ~780 |
-| **Lignes de Documentation** | ~3500+ |
-| **Total Lignes** | **~6500+** |
-| **Guides Pédagogiques** | 7 |
-| **Sections Portfolio** | 7 |
-| **Questions Chatbot** | 10+ |
-| **Images** | 2 |
+| Lignes de HTML | ~630 |
+| Lignes de CSS | ~1560 |
+| Lignes de JavaScript | ~780 |
+| Lignes de Documentation | ~3500+ |
+| Total Lignes | ~6500+ |
+| Guides Pédagogiques | 7 |
+| Sections Portfolio | 7 |
+| Questions Chatbot | 10+ |
+| Images | 2 |
 
 ---
 

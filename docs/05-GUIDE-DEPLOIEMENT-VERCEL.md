@@ -965,7 +965,7 @@ Après déploiement:
 | Documentation dans README | 10 |
 | HTTPS fonctionnel | 10 |
 | Responsive vérifié | 5 |
-| **Total** | **100** |
+| Total | 100 |
 
 ---
 

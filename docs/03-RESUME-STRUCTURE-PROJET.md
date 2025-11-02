@@ -340,14 +340,14 @@ assets/images/
 
 | Métrique | Valeur |
 |----------|--------|
-| **Fichiers HTML** | 1 |
-| **Fichiers CSS** | 1 (~1560 lignes) |
-| **Fichiers JavaScript** | 1 (~780 lignes) |
-| **Images** | 2 |
-| **Guides** | 4 |
-| **Documentation** | 5 fichiers |
-| **Total Lignes de Code** | ~3000+ |
-| **Taille Totale** | ~500 KB |
+| Fichiers HTML | 1 |
+| Fichiers CSS | 1 (~1560 lignes) |
+| Fichiers JavaScript | 1 (~780 lignes) |
+| Images | 2 |
+| Guides | 4 |
+| Documentation | 5 fichiers |
+| Total Lignes de Code | ~3000+ |
+| Taille Totale | ~500 KB |
 
 ---
 

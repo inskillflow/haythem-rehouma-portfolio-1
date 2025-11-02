@@ -13,35 +13,35 @@
 
 | # | Fichier | Description | Temps | Pour Qui |
 |---|---------|-------------|-------|----------|
-| **00** | [START-HERE.md](00-START-HERE.md) |  **Point d'entrée principal** - Par où commencer | 5 min | Tout le monde |
-| **01** | [QUICKSTART.md](01-QUICKSTART.md) |  Démarrage ultra-rapide en 5 minutes | 5 min | Débutants |
+| 00 | [START-HERE.md](00-START-HERE.md) | Point d'entrée principal - Par où commencer | 5 min | Tout le monde |
+| 01 | [QUICKSTART.md](01-QUICKSTART.md) | Démarrage ultra-rapide en 5 minutes | 5 min | Débutants |
 
 ### Pour APPRENDRE (Étudiants)
 
 | # | Fichier | Description | Temps | Niveau |
 |---|---------|-------------|-------|--------|
-| **02** | [GUIDE-ETUDIANT-PRINCIPAL.md](02-GUIDE-ETUDIANT-PRINCIPAL.md) |  **Guide complet du cours** (6-8 heures) | - | Tous niveaux |
-| **03** | [RESUME-STRUCTURE-PROJET.md](03-RESUME-STRUCTURE-PROJET.md) |  Comprendre l'organisation professionnelle | 15 min | Débutant |
+| 02 | [GUIDE-ETUDIANT-PRINCIPAL.md](02-GUIDE-ETUDIANT-PRINCIPAL.md) | Guide complet du cours (6-8 heures) | - | Tous niveaux |
+| 03 | [RESUME-STRUCTURE-PROJET.md](03-RESUME-STRUCTURE-PROJET.md) | Comprendre l'organisation professionnelle | 15 min | Débutant |
 
 ### Pour DÉPLOYER (Mise en Ligne)
 
 | # | Fichier | Description | Temps | Niveau |
 |---|---------|-------------|-------|--------|
-| **04** | [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) |  Déploiement sur GitHub Pages (gratuit) | 30 min | Débutant |
-| **05** | [GUIDE-DEPLOIEMENT-VERCEL.md](05-GUIDE-DEPLOIEMENT-VERCEL.md) |  Déploiement sur Vercel (performant) | 20 min | Intermédiaire |
+| 04 | [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | Déploiement sur GitHub Pages (gratuit) + 3 diagrammes Mermaid | 30 min | Débutant |
+| 05 | [GUIDE-DEPLOIEMENT-VERCEL.md](05-GUIDE-DEPLOIEMENT-VERCEL.md) | Déploiement sur Vercel (performant) + 5 diagrammes Mermaid | 20 min | Intermédiaire |
 
 ### Référence Technique
 
 | # | Fichier | Description | Pour Qui |
 |---|---------|-------------|----------|
-| **07** | [COMMANDES-GIT-REFERENCE.md](07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git utilisées | Tous |
-| **08** | [DIAGRAMMES-WORKFLOWS.md](08-DIAGRAMMES-WORKFLOWS.md) | 15+ diagrammes Mermaid des workflows | Tous |
+| 07 | [COMMANDES-GIT-REFERENCE.md](07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git utilisées | Tous |
+| 08 | [DIAGRAMMES-WORKFLOWS.md](08-DIAGRAMMES-WORKFLOWS.md) | 15+ diagrammes Mermaid des workflows | Tous |
 
 ### Informations Légales
 
 | # | Fichier | Description |
 |---|---------|-------------|
-| **06** | [LICENSE.md](06-LICENSE.md) |  Copyright & Licence - © 2024 Haythem REHOUMA |
+| 06 | [LICENSE.md](06-LICENSE.md) | Copyright & Licence - © 2024 Haythem REHOUMA |
 
 ---
 
@@ -227,13 +227,13 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Nombre de guides** | 9 fichiers |
-| **Total lignes** | ~5000+ lignes |
-| **Diagrammes Mermaid** | 15+ diagrammes |
-| **Temps de lecture total** | ~2-3 heures |
-| **Exercices pratiques** | 15+ |
-| **Exemples de code** | 100+ |
-| **Captures d'écran** | Multiple |
+| Nombre de guides | 9 fichiers |
+| Total lignes | ~5000+ lignes |
+| Diagrammes Mermaid | 15+ diagrammes |
+| Temps de lecture total | ~2-3 heures |
+| Exercices pratiques | 15+ |
+| Exemples de code | 100+ |
+| Captures d'écran | Multiple |
 
 ---
 
