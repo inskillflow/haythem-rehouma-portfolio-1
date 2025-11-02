@@ -1,0 +1,43 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Build outputs (if you add build tools later)
+dist/
+build/
+
+# Dependencies (if you add npm later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cache
+.cache/
+
+# Python (if using Python server)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Keep assets folder structure but ignore some files
+# assets/images/.gitkeep
+
