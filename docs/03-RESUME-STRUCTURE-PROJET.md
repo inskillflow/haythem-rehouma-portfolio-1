@@ -3,7 +3,7 @@
 
 ---
 
-> **Pour les Étudiants:** Ce document explique pourquoi chaque fichier est là et comment tout s'organise.
+> **Pour les Apprenants:** Ce document explique pourquoi chaque fichier est là et comment tout s'organise.
 
 ---
 
