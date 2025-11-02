@@ -210,16 +210,11 @@ Cette méthode permet un **déploiement continu automatique** : chaque fois que 
 3. Choisissez **"Continue with GitHub"** (recommandé)
 4. Autorisez Vercel à accéder à vos dépôts GitHub
 
-![Vercel Signup](https://via.placeholder.com/800x200/000000/ffffff?text=Sign+Up+with+GitHub)
-
 ### Étape 2.2: Importer le Projet
 
 1. Sur votre dashboard Vercel, cliquez sur **"Add New..."**
 2. Sélectionnez **"Project"**
 3. Vous verrez la liste de vos dépôts GitHub
-
-![Import Project](https://via.placeholder.com/800x200/000000/ffffff?text=Import+Git+Repository)
-
 4. Cherchez `portfolio-haythem-rehouma`
 5. Cliquez sur **"Import"**
 
@@ -288,8 +283,6 @@ dir
 
 1. Sélectionnez **TOUT** le dossier de votre projet (pas les fichiers individuels!)
 2. Glissez-déposez dans la zone
-
-![Drag Drop](https://via.placeholder.com/800x200/000000/ffffff?text=Drag+and+Drop+Your+Project)
 
 ### Étape 3.4: Déploiement
 
@@ -505,12 +498,22 @@ Créez un fichier `vercel.json` à la racine de votre projet pour personnaliser 
 #### Étape 6.1: Acheter un Domaine
 
 Achetez un domaine sur:
-- [Namecheap](https://namecheap.com)
-- [GoDaddy](https://godaddy.com)
-- [Google Domains](https://domains.google)
-- [OVH](https://ovh.com)
+- [Vercel Domains](https://vercel.com/domains) - Intégration directe avec Vercel
+- [Namecheap](https://namecheap.com) - Prix compétitifs, interface simple
+- [GoDaddy](https://godaddy.com) - Très populaire, support 24/7
+- [Google Domains](https://domains.google) - Interface Google, fiable
+- [OVH](https://ovh.com) - Hébergeur français, bon support
+- [Hostinger](https://hostinger.com) - Très bon rapport qualité/prix
+- [Cloudflare](https://cloudflare.com) - Prix au coût, excellente sécurité
+- [Gandi](https://gandi.net) - Français, éthique, sans frais cachés
 
-**Prix:** ~10-15€/an
+**Prix moyen:** $10-15/an (environ 10-14€/an)
+
+**Recommandations:**
+- **Pour débutants:** Namecheap ou Hostinger (interface simple)
+- **Pour Vercel:** Vercel Domains (intégration native)
+- **Pour sécurité:** Cloudflare (protection DDoS incluse)
+- **Pour français:** OVH ou Gandi (support en français)
 
 #### Étape 6.2: Ajouter le Domaine à Vercel
 
@@ -717,17 +720,17 @@ graph TB
 
 | Critère | Vercel | GitHub Pages |
 |---------|--------|--------------|
-| ** Vitesse de déploiement** |  10-30 sec | ⏱ 30-300 sec |
-| ** CDN Global** |  Edge Network mondial |  GitHub CDN |
-| ** Coût** | 100 GB/mois gratuit |  Illimité gratuit |
-| ** CI/CD** |  Automatique |  Automatique |
-| ** Analytics** |  Intégrés (gratuit) |  Non (sauf avec Google Analytics) |
-| ** Preview Deployments** |  Oui |  Non |
-| ** Serverless Functions** |  Oui |  Non |
-| ** Configuration** |  vercel.json puissant |  Limited |
-| ** Facilité d'utilisation** |  |  |
-| ** Courbe d'apprentissage** | Facile | Moyenne (Git requis) |
-| ** Usage Professionnel** |  |  |
+| Vitesse de déploiement | 10-30 sec | 30-300 sec |
+| CDN Global | Edge Network mondial | GitHub CDN |
+| Coût | 100 GB/mois gratuit | Illimité gratuit |
+| CI/CD | Automatique | Automatique |
+| Analytics | Intégrés (gratuit) | Non (sauf avec Google Analytics) |
+| Preview Deployments | Oui | Non |
+| Serverless Functions | Oui | Non |
+| Configuration | vercel.json puissant | Limited |
+| Facilité d'utilisation | Très Facile | Facile |
+| Courbe d'apprentissage | Facile | Moyenne (Git requis) |
+| Usage Professionnel | Excellence | Bon |
 
 ### Recommandation pour les Étudiants
 
@@ -871,7 +874,7 @@ vercel inspect [deployment-url]
 4. Testez que tout fonctionne
 
 ### Exercice 3: Domaine Personnalisé (45 min)
-1. Achetez un domaine sur Namecheap (~1€ première année)
+1. Achetez un domaine sur Namecheap (~$1 première année avec promo) ou Hostinger
 2. Configurez-le sur Vercel
 3. Attendez la propagation DNS
 4. Vérifiez que HTTPS fonctionne

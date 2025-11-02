@@ -155,20 +155,18 @@ Vous devriez voir:
 1. Cliquez sur le bouton **"+"** en haut à droite
 2. Sélectionnez **"New repository"**
 
-![Création repo](https://via.placeholder.com/800x200/0066ff/ffffff?text=New+Repository)
-
 ### Étape 3.3: Configuration du Dépôt
 
 Remplissez le formulaire:
 
 | Champ | Valeur Recommandée | Explication |
 |-------|-------------------|-------------|
-| **Repository name** | `portfolio-haythem-rehouma` | Nom unique, sans espaces |
-| **Description** | `Portfolio professionnel de Haythem REHOUMA - AI Developer` | Description claire |
-| **Visibility** |  **Public** | Obligatoire pour GitHub Pages gratuit |
-| **Initialize** |  **PAS** de README | On va pusher notre code existant |
-| **Add .gitignore** |  **Non** | On a déjà le nôtre |
-| **Choose a license** |  **Non** | On a déjà LICENSE.md |
+| Repository name | `portfolio-haythem-rehouma` | Nom unique, sans espaces |
+| Description | `Portfolio professionnel de Haythem REHOUMA - AI Developer` | Description claire |
+| Visibility | Public | Obligatoire pour GitHub Pages gratuit |
+| Initialize | PAS de README | On va pusher notre code existant |
+| Add .gitignore | Non | On a déjà le nôtre |
+| Choose a license | Non | On a déjà LICENSE.md |
 
 ### Exemple de Configuration
 
@@ -348,9 +346,9 @@ Dans la section **"Build and deployment"**:
 
 | Paramètre | Valeur |
 |-----------|--------|
-| **Source** | Deploy from a branch |
-| **Branch** | `main` |
-| **Folder** | `/ (root)` |
+| Source | Deploy from a branch |
+| Branch | `main` |
+| Folder | `/ (root)` |
 
 Cliquez sur **"Save"**
 
@@ -706,7 +704,7 @@ git push
 | README.md à jour | 10 |
 | Responsive fonctionne | 10 |
 | Pas de fichiers inutiles | 10 |
-| **Total** | **100** |
+| Total | 100 |
 
 ---
 
