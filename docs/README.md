@@ -1,4 +1,4 @@
-# 📚 Documentation & Guides
+# Documentation & Guides
 ## Portfolio Professionnel - Haythem REHOUMA
 
 ---
@@ -7,38 +7,44 @@
 
 ---
 
-## 🗂️ Ordre de Lecture Recommandé
+## Ordre de Lecture Recommandé
 
 ### Pour COMMENCER (Tout le Monde)
 
 | # | Fichier | Description | Temps | Pour Qui |
 |---|---------|-------------|-------|----------|
-| **00** | [START-HERE.md](00-START-HERE.md) | 🚀 **Point d'entrée principal** - Par où commencer | 5 min | Tout le monde |
-| **01** | [QUICKSTART.md](01-QUICKSTART.md) | ⚡ Démarrage ultra-rapide en 5 minutes | 5 min | Débutants |
+| **00** | [START-HERE.md](00-START-HERE.md) |  **Point d'entrée principal** - Par où commencer | 5 min | Tout le monde |
+| **01** | [QUICKSTART.md](01-QUICKSTART.md) |  Démarrage ultra-rapide en 5 minutes | 5 min | Débutants |
 
 ### Pour APPRENDRE (Étudiants)
 
 | # | Fichier | Description | Temps | Niveau |
 |---|---------|-------------|-------|--------|
-| **02** | [GUIDE-ETUDIANT-PRINCIPAL.md](02-GUIDE-ETUDIANT-PRINCIPAL.md) | 🎓 **Guide complet du cours** (6-8 heures) | - | Tous niveaux |
-| **03** | [RESUME-STRUCTURE-PROJET.md](03-RESUME-STRUCTURE-PROJET.md) | 📁 Comprendre l'organisation professionnelle | 15 min | Débutant |
+| **02** | [GUIDE-ETUDIANT-PRINCIPAL.md](02-GUIDE-ETUDIANT-PRINCIPAL.md) |  **Guide complet du cours** (6-8 heures) | - | Tous niveaux |
+| **03** | [RESUME-STRUCTURE-PROJET.md](03-RESUME-STRUCTURE-PROJET.md) |  Comprendre l'organisation professionnelle | 15 min | Débutant |
 
 ### Pour DÉPLOYER (Mise en Ligne)
 
 | # | Fichier | Description | Temps | Niveau |
 |---|---------|-------------|-------|--------|
-| **04** | [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | 📘 Déploiement sur GitHub Pages (gratuit) | 30 min | Débutant |
-| **05** | [GUIDE-DEPLOIEMENT-VERCEL.md](05-GUIDE-DEPLOIEMENT-VERCEL.md) | 📗 Déploiement sur Vercel (performant) | 20 min | Intermédiaire |
+| **04** | [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) |  Déploiement sur GitHub Pages (gratuit) | 30 min | Débutant |
+| **05** | [GUIDE-DEPLOIEMENT-VERCEL.md](05-GUIDE-DEPLOIEMENT-VERCEL.md) |  Déploiement sur Vercel (performant) | 20 min | Intermédiaire |
+
+### Référence Technique
+
+| # | Fichier | Description | Pour Qui |
+|---|---------|-------------|----------|
+| **07** | [COMMANDES-GIT-REFERENCE.md](07-COMMANDES-GIT-REFERENCE.md) |  Toutes les commandes Git utilisées | Tous |
 
 ### Informations Légales
 
 | # | Fichier | Description |
 |---|---------|-------------|
-| **06** | [LICENSE.md](06-LICENSE.md) | 📄 Copyright & Licence - © 2024 Haythem REHOUMA |
+| **06** | [LICENSE.md](06-LICENSE.md) |  Copyright & Licence - © 2024 Haythem REHOUMA |
 
 ---
 
-## 🎯 Parcours d'Apprentissage
+## Parcours d'Apprentissage
 
 ### Parcours 1: Débutant Complet
 
@@ -84,9 +90,9 @@
 
 ---
 
-## 📖 Résumé de Chaque Guide
+## Résumé de Chaque Guide
 
-### 00 - START HERE 🚀
+### 00 - START HERE 
 
 **Le point d'entrée absolu!**
 
@@ -100,7 +106,7 @@
 
 ---
 
-### 01 - QUICKSTART ⚡
+### 01 - QUICKSTART 
 
 **Lancer le portfolio en 5 minutes**
 
@@ -114,7 +120,7 @@
 
 ---
 
-### 02 - GUIDE ÉTUDIANT PRINCIPAL 🎓
+### 02 - GUIDE ÉTUDIANT PRINCIPAL 
 
 **Le guide maître pour enseigner le cours**
 
@@ -138,7 +144,7 @@
 
 ---
 
-### 03 - RÉSUMÉ STRUCTURE PROJET 📁
+### 03 - RÉSUMÉ STRUCTURE PROJET 
 
 **Comprendre l'organisation professionnelle**
 
@@ -153,7 +159,7 @@
 
 ---
 
-### 04 - GUIDE DÉPLOIEMENT GITHUB PAGES 📘
+### 04 - GUIDE DÉPLOIEMENT GITHUB PAGES 
 
 **Déploiement gratuit et illimité**
 
@@ -168,16 +174,16 @@
 - Quiz de compréhension
 
 **Avantages:**
-- ✅ 100% gratuit
-- ✅ Illimité
-- ✅ Apprendre Git en profondeur
-- ✅ Standard de l'industrie
+-  100% gratuit
+-  Illimité
+-  Apprendre Git en profondeur
+-  Standard de l'industrie
 
 **Pour:** Débutants et apprentissage Git
 
 ---
 
-### 05 - GUIDE DÉPLOIEMENT VERCEL 📗
+### 05 - GUIDE DÉPLOIEMENT VERCEL 
 
 **Déploiement professionnel ultra-rapide**
 
@@ -192,17 +198,17 @@
 - Comparaison avec GitHub Pages
 
 **Avantages:**
-- ✅ Déploiement en 10-30 secondes
-- ✅ CDN global
-- ✅ Analytics inclus
-- ✅ Preview deployments
-- ✅ Performances optimales
+-  Déploiement en 10-30 secondes
+-  CDN global
+-  Analytics inclus
+-  Preview deployments
+-  Performances optimales
 
 **Pour:** Projets professionnels et performances
 
 ---
 
-### 06 - LICENSE 📄
+### 06 - LICENSE 
 
 **Protection légale du projet**
 
@@ -214,12 +220,12 @@
 
 ---
 
-## 📊 Statistiques de la Documentation
+## Statistiques de la Documentation
 
 | Métrique | Valeur |
 |----------|--------|
-| **Nombre de guides** | 7 fichiers |
-| **Total lignes** | ~3500+ lignes |
+| **Nombre de guides** | 8 fichiers |
+| **Total lignes** | ~4000+ lignes |
 | **Temps de lecture total** | ~2-3 heures |
 | **Exercices pratiques** | 15+ |
 | **Exemples de code** | 100+ |
@@ -227,7 +233,7 @@
 
 ---
 
-## 🎯 Questions Fréquentes
+## Questions Fréquentes
 
 ### Q: Par où dois-je commencer?
 **R:** [00-START-HERE.md](00-START-HERE.md) - TOUJOURS commencer ici!
@@ -253,7 +259,7 @@
 
 ---
 
-## 🔗 Liens Externes Utiles
+## Liens Externes Utiles
 
 ### Documentation Officielle
 - [MDN Web Docs](https://developer.mozilla.org)
@@ -273,9 +279,9 @@
 
 ---
 
-## 💡 Conseils de Lecture
+## Conseils de Lecture
 
-### ✅ DO - À Faire
+### DO - À Faire
 
 1. **Commencez par 00-START-HERE.md** - Vue d'ensemble
 2. **Suivez l'ordre numérique** - C'est logique!
@@ -283,7 +289,7 @@
 4. **Prenez des notes** - Documentez votre apprentissage
 5. **Testez le code** - Expérimentez!
 
-### ❌ DON'T - À Éviter
+### DON'T - À Éviter
 
 1. Ne sautez pas l'introduction (00)
 2. Ne lisez pas dans le désordre (sauf si expérimenté)
@@ -292,13 +298,13 @@
 
 ---
 
-## 🆘 Besoin d'Aide?
+## Besoin d'Aide?
 
 ### Support
 
-📧 **Email:** haythem.rehouma@inskillflow.com  
-🌐 **Website:** inskillflow.com  
-💼 **LinkedIn:** [linkedin.com/in/haythemrehouma](https://www.linkedin.com/in/haythemrehouma/)
+ **Email:** haythem.rehouma@inskillflow.com  
+ **Website:** inskillflow.com  
+ **LinkedIn:** [linkedin.com/in/haythemrehouma](https://www.linkedin.com/in/haythemrehouma/)
 
 ### Pour les Étudiants
 
@@ -309,7 +315,7 @@
 
 ---
 
-## 🎉 Commencez Maintenant!
+## Commencez Maintenant!
 
 Prêt à apprendre? Cliquez sur [00-START-HERE.md](00-START-HERE.md) pour commencer!
 
@@ -319,7 +325,7 @@ Besoin d'un démarrage rapide? [01-QUICKSTART.md](01-QUICKSTART.md)
 
 ---
 
-## 📈 Mises à Jour
+## Mises à Jour
 
 **Version 1.0** - Novembre 2024
 - Documentation initiale complète
@@ -334,5 +340,5 @@ Besoin d'un démarrage rapide? [01-QUICKSTART.md](01-QUICKSTART.md)
 
 ---
 
-**Bon apprentissage! 🚀✨**
+**Bon apprentissage! **
 

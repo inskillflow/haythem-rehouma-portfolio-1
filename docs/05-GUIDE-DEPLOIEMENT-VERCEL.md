@@ -1,4 +1,4 @@
-# 📗 Guide de Déploiement sur Vercel
+# Guide de Déploiement sur Vercel
 ## Cours Complet pour Étudiants - Étape par Étape
 
 ---
@@ -15,7 +15,7 @@
 
 ---
 
-## 📚 Table des Matières
+## Table des Matières
 
 1. [Qu'est-ce que Vercel?](#1-quest-ce-que-vercel)
 2. [Méthode 1: Import depuis GitHub](#2-méthode-1-import-depuis-github)
@@ -32,48 +32,48 @@
 
 ## 1. Qu'est-ce que Vercel?
 
-### 📖 Définition
+### Définition
 
 **Vercel** est une plateforme de déploiement cloud optimisée pour les frameworks frontend modernes. Créée par l'équipe derrière **Next.js**.
 
-### ✨ Avantages de Vercel
+### Avantages de Vercel
 
 | Fonctionnalité | Description |
 |----------------|-------------|
-| 🚀 **Déploiement Instantané** | Deploy en quelques secondes |
-| 🔄 **CI/CD Automatique** | Chaque commit = nouveau déploiement |
-| 🌍 **CDN Global** | Edge Network dans le monde entier |
-| 📊 **Analytics Intégrés** | Statistiques de performance |
-| 🔒 **SSL Automatique** | HTTPS gratuit |
-| 🎯 **Preview Deployments** | URL unique pour chaque PR |
-| ⚡ **Performances** | Optimisation automatique |
-| 🆓 **Plan Gratuit Généreux** | 100 GB bande passante/mois |
+|  **Déploiement Instantané** | Deploy en quelques secondes |
+|  **CI/CD Automatique** | Chaque commit = nouveau déploiement |
+|  **CDN Global** | Edge Network dans le monde entier |
+|  **Analytics Intégrés** | Statistiques de performance |
+|  **SSL Automatique** | HTTPS gratuit |
+|  **Preview Deployments** | URL unique pour chaque PR |
+|  **Performances** | Optimisation automatique |
+|  **Plan Gratuit Généreux** | 100 GB bande passante/mois |
 
-### 💰 Tarification
+### Tarification
 
 **Plan Hobby (Gratuit):**
-- ✅ Projets illimités
-- ✅ 100 GB bande passante/mois  
-- ✅ SSL automatique
-- ✅ Analytics de base
-- ✅ Domaines personnalisés
+-  Projets illimités
+-  100 GB bande passante/mois  
+-  SSL automatique
+-  Analytics de base
+-  Domaines personnalisés
 
 **Plan Pro (20$/mois):**
-- ✅ Tout du plan Hobby
-- ✅ 1 TB bande passante
-- ✅ Analytics avancés
-- ✅ Support prioritaire
+-  Tout du plan Hobby
+-  1 TB bande passante
+-  Analytics avancés
+-  Support prioritaire
 
-### 🎯 Quand Utiliser Vercel?
+### Quand Utiliser Vercel?
 
-✅ **Utilisez Vercel si:**
+ **Utilisez Vercel si:**
 - Vous voulez les meilleures performances
 - Vous avez besoin de preview deployments
 - Vous travaillez en équipe
 - Vous voulez des analytics
 - Vous utilisez Next.js, React, Vue, etc.
 
-❌ **Utilisez GitHub Pages si:**
+ **Utilisez GitHub Pages si:**
 - Vous débutez complètement
 - Vous voulez 100% gratuit et illimité
 - Vous n'avez besoin que d'un hébergement simple
@@ -83,11 +83,11 @@
 
 ## 2. Méthode 1: Import depuis GitHub
 
-### ⭐ Méthode Recommandée pour les Projets Professionnels
+### Méthode Recommandée pour les Projets Professionnels
 
 Cette méthode permet un **déploiement continu automatique** : chaque fois que vous poussez du code vers GitHub, Vercel redéploie automatiquement votre site!
 
-### 📝 Étape 2.1: Créer un Compte Vercel
+### Étape 2.1: Créer un Compte Vercel
 
 1. Allez sur [vercel.com](https://vercel.com)
 2. Cliquez sur **"Sign Up"**
@@ -96,7 +96,7 @@ Cette méthode permet un **déploiement continu automatique** : chaque fois que 
 
 ![Vercel Signup](https://via.placeholder.com/800x200/000000/ffffff?text=Sign+Up+with+GitHub)
 
-### 🔗 Étape 2.2: Importer le Projet
+### Étape 2.2: Importer le Projet
 
 1. Sur votre dashboard Vercel, cliquez sur **"Add New..."**
 2. Sélectionnez **"Project"**
@@ -107,7 +107,7 @@ Cette méthode permet un **déploiement continu automatique** : chaque fois que 
 4. Cherchez `portfolio-haythem-rehouma`
 5. Cliquez sur **"Import"**
 
-### ⚙️ Étape 2.3: Configuration du Projet
+### Étape 2.3: Configuration du Projet
 
 Vercel va détecter automatiquement votre configuration:
 
@@ -122,37 +122,37 @@ Install Command: (laisser vide)
 
 **Pour un site HTML statique, laissez tout par défaut!**
 
-### 🚀 Étape 2.4: Déployer
+### Étape 2.4: Déployer
 
 1. Cliquez sur **"Deploy"**
 2. Vercel va:
-   - ✅ Cloner votre code
-   - ✅ L'analyser
-   - ✅ Le déployer sur le CDN global
-   - ✅ Générer une URL
+-  Cloner votre code
+-  L'analyser
+-  Le déployer sur le CDN global
+-  Générer une URL
 
-**Temps de déploiement:** 10-30 secondes ⚡
+**Temps de déploiement:** 10-30 secondes 
 
-### 🎉 Étape 2.5: Récupérer l'URL
+### Étape 2.5: Récupérer l'URL
 
 Une fois terminé, vous verrez:
 
 ```
-🎉 Congratulations!
+ Congratulations!
 Your project has been successfully deployed.
 
 Visit: https://portfolio-haythem-rehouma.vercel.app
 ```
 
-**C'est l'URL de votre site!** 🌟
+**C'est l'URL de votre site!** 
 
 ---
 
 ## 3. Méthode 2: Déploiement par Drag & Drop
 
-### 🎯 Parfait pour: Démo Rapide, Prototypes
+### Parfait pour: Démo Rapide, Prototypes
 
-### 📝 Étape 3.1: Préparer les Fichiers
+### Étape 3.1: Préparer les Fichiers
 
 ```powershell
 # Allez dans votre dossier de projet
@@ -162,46 +162,46 @@ cd C:\00-projetsGA\Github-pages
 dir
 ```
 
-### 📤 Étape 3.2: Créer un Projet
+### Étape 3.2: Créer un Projet
 
 1. Allez sur [vercel.com/new](https://vercel.com/new)
 2. Sélectionnez **"Browse"** sous "Deploy from a Git repository"
 3. Ou descendez et cherchez **"Deploy with Vercel CLI"**
 
-### 🖱️ Étape 3.3: Drag & Drop
+### Étape 3.3: Drag & Drop
 
 1. Sélectionnez **TOUT** le dossier de votre projet (pas les fichiers individuels!)
 2. Glissez-déposez dans la zone
 
 ![Drag Drop](https://via.placeholder.com/800x200/000000/ffffff?text=Drag+and+Drop+Your+Project)
 
-### ⚡ Étape 3.4: Déploiement
+### Étape 3.4: Déploiement
 
 Vercel va automatiquement:
-- ✅ Uploader vos fichiers
-- ✅ Les analyser
-- ✅ Les déployer
+-  Uploader vos fichiers
+-  Les analyser
+-  Les déployer
 
 **Temps:** 10-20 secondes
 
-### ⚠️ Limitation
+### Limitation
 
-❌ Pas de déploiement automatique  
-❌ Pas de lien avec Git  
-❌ Vous devez re-déployer manuellement à chaque modification
+ Pas de déploiement automatique  
+ Pas de lien avec Git  
+ Vous devez re-déployer manuellement à chaque modification
 
 ---
 
 ## 4. Méthode 3: Vercel CLI (Ligne de Commande)
 
-### 🎓 Pour les Étudiants Avancés
+### Pour les Étudiants Avancés
 
 Cette méthode est parfaite pour:
-- ✅ Automatisation
-- ✅ Intégration dans des scripts
-- ✅ Déploiement depuis CI/CD
+-  Automatisation
+-  Intégration dans des scripts
+-  Déploiement depuis CI/CD
 
-### 📦 Étape 4.1: Installer Vercel CLI
+### Étape 4.1: Installer Vercel CLI
 
 ```powershell
 # Avec npm (nécessite Node.js)
@@ -225,7 +225,7 @@ vercel --version
 Vercel CLI 32.5.0
 ```
 
-### 🔐 Étape 4.2: S'authentifier
+### Étape 4.2: S'authentifier
 
 ```powershell
 vercel login
@@ -241,7 +241,7 @@ Vercel va:
 > Success! Email authentication complete for haythem.rehouma@inskillflow.com
 ```
 
-### 🚀 Étape 4.3: Déployer
+### Étape 4.3: Déployer
 
 ```powershell
 # Naviguez vers votre projet
@@ -268,15 +268,15 @@ Vercel va poser des questions:
 - `portfolio-haythem-rehouma`
 - `./` (répertoire actuel)
 
-### 🎉 Étape 4.4: Résultat
+### Étape 4.4: Résultat
 
 ```
-🔗 Deployed to production. Run `vercel --prod` to overwrite later.
-📝  Inspect: https://vercel.com/...
-🔍  Preview: https://portfolio-haythem-rehouma-abc123.vercel.app
+ Deployed to production. Run `vercel --prod` to overwrite later.
+  Inspect: https://vercel.com/...
+  Preview: https://portfolio-haythem-rehouma-abc123.vercel.app
 ```
 
-### 🔄 Mises à Jour Futures
+### Mises à Jour Futures
 
 ```powershell
 # Modifiez vos fichiers...
@@ -291,7 +291,7 @@ vercel --prod
 
 ## 5. Configuration Personnalisée
 
-### 📄 Fichier vercel.json
+### Fichier vercel.json
 
 Créez un fichier `vercel.json` à la racine de votre projet pour personnaliser le déploiement:
 
@@ -333,7 +333,7 @@ Créez un fichier `vercel.json` à la racine de votre projet pour personnaliser 
 }
 ```
 
-### 🎯 Options Utiles
+### Options Utiles
 
 #### Redirections
 
@@ -384,7 +384,7 @@ Créez un fichier `vercel.json` à la racine de votre projet pour personnaliser 
 
 ## 6. Nom de Domaine Personnalisé
 
-### 🌐 Ajouter Votre Propre Domaine
+### Ajouter Votre Propre Domaine
 
 #### Étape 6.1: Acheter un Domaine
 
@@ -435,9 +435,9 @@ Value: cname.vercel-dns.com
 
 #### Étape 6.4: Attendre la Propagation
 
-⏱️ **Temps d'attente:** 15 minutes à 48 heures (généralement 1-2 heures)
+⏱ **Temps d'attente:** 15 minutes à 48 heures (généralement 1-2 heures)
 
-✅ Une fois configuré, votre site sera accessible sur:
+ Une fois configuré, votre site sera accessible sur:
 - `https://haythem-rehouma.com`
 - `https://www.haythem-rehouma.com`
 
@@ -445,7 +445,7 @@ Value: cname.vercel-dns.com
 
 ## 7. Variables d'Environnement
 
-### 🔐 Pour les Secrets et Configuration
+### Pour les Secrets et Configuration
 
 Si vous avez besoin de clés API (pour un chatbot réel, par exemple):
 
@@ -470,13 +470,13 @@ Environment: Production, Preview, Development
 const apiKey = process.env.OPENAI_API_KEY;
 ```
 
-⚠️ **IMPORTANT:** Les variables d'environnement ne fonctionnent que dans les **Serverless Functions**, pas dans le HTML/JS statique!
+ **IMPORTANT:** Les variables d'environnement ne fonctionnent que dans les **Serverless Functions**, pas dans le HTML/JS statique!
 
 ---
 
 ## 8. Dépannage
 
-### 🚨 Problème: Build Failed
+### Problème: Build Failed
 
 **Erreur:**
 ```
@@ -486,8 +486,8 @@ Error: Build failed with exit code 1
 **Solutions:**
 
 1. **Vérifiez les logs de build:**
-   - Cliquez sur le déploiement échoué
-   - Regardez **"Build Logs"**
+- Cliquez sur le déploiement échoué
+- Regardez **"Build Logs"**
 
 2. **Vérifiez la structure du projet:**
    ```powershell
@@ -497,14 +497,14 @@ Error: Build failed with exit code 1
 
 3. **Vérifiez les chemins relatifs:**
    ```html
-   <!-- ✅ Bon -->
+   <!--  Bon -->
    <link href="css/styles.css">
    
-   <!-- ❌ Mauvais -->
+   <!--  Mauvais -->
    <link href="/css/styles.css">
    ```
 
-### 🚨 Problème: 404 Not Found
+### Problème: 404 Not Found
 
 **Solutions:**
 
@@ -523,7 +523,7 @@ Error: Build failed with exit code 1
    ls index.html
    ```
 
-### 🚨 Problème: Domaine ne se connecte pas
+### Problème: Domaine ne se connecte pas
 
 **Solutions:**
 
@@ -533,13 +533,13 @@ Error: Build failed with exit code 1
    ```
 
 2. **Utilisez un outil en ligne:**
-   - [whatsmydns.net](https://whatsmydns.net)
-   - Entrez votre domaine
-   - Vérifiez si les DNS pointent vers Vercel
+- [whatsmydns.net](https://whatsmydns.net)
+- Entrez votre domaine
+- Vérifiez si les DNS pointent vers Vercel
 
 3. **Attendez plus longtemps** (parfois 48h)
 
-### 🚨 Problème: Le site ne se met pas à jour
+### Problème: Le site ne se met pas à jour
 
 **Solutions:**
 
@@ -550,12 +550,12 @@ Error: Build failed with exit code 1
    ```
 
 2. **Videz le cache du navigateur:**
-   - Chrome/Edge: Ctrl + Shift + R
-   - Firefox: Ctrl + F5
+- Chrome/Edge: Ctrl + Shift + R
+- Firefox: Ctrl + F5
 
 3. **Vérifiez le dernier commit:**
-   - Dashboard Vercel
-   - Vérifiez que c'est le bon commit qui est déployé
+- Dashboard Vercel
+- Vérifiez que c'est le bon commit qui est déployé
 
 ---
 
@@ -563,19 +563,19 @@ Error: Build failed with exit code 1
 
 | Critère | Vercel | GitHub Pages |
 |---------|--------|--------------|
-| **🚀 Vitesse de déploiement** | ⚡ 10-30 sec | ⏱️ 30-300 sec |
-| **🌍 CDN Global** | ✅ Edge Network mondial | ✅ GitHub CDN |
-| **💰 Coût** | 100 GB/mois gratuit | ♾️ Illimité gratuit |
-| **🔄 CI/CD** | ✅ Automatique | ✅ Automatique |
-| **📊 Analytics** | ✅ Intégrés (gratuit) | ❌ Non (sauf avec Google Analytics) |
-| **🎯 Preview Deployments** | ✅ Oui | ❌ Non |
-| **⚙️ Serverless Functions** | ✅ Oui | ❌ Non |
-| **🔧 Configuration** | ✅ vercel.json puissant | ⚙️ Limited |
-| **📱 Facilité d'utilisation** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **🎓 Courbe d'apprentissage** | Facile | Moyenne (Git requis) |
-| **🏢 Usage Professionnel** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| ** Vitesse de déploiement** |  10-30 sec | ⏱ 30-300 sec |
+| ** CDN Global** |  Edge Network mondial |  GitHub CDN |
+| ** Coût** | 100 GB/mois gratuit |  Illimité gratuit |
+| ** CI/CD** |  Automatique |  Automatique |
+| ** Analytics** |  Intégrés (gratuit) |  Non (sauf avec Google Analytics) |
+| ** Preview Deployments** |  Oui |  Non |
+| ** Serverless Functions** |  Oui |  Non |
+| ** Configuration** |  vercel.json puissant |  Limited |
+| ** Facilité d'utilisation** |  |  |
+| ** Courbe d'apprentissage** | Facile | Moyenne (Git requis) |
+| ** Usage Professionnel** |  |  |
 
-### 🎯 Recommandation pour les Étudiants
+### Recommandation pour les Étudiants
 
 **Apprenez les DEUX!**
 
@@ -586,21 +586,21 @@ Error: Build failed with exit code 1
 
 ## 10. Bonnes Pratiques
 
-### ✅ DO - À Faire
+### DO - À Faire
 
 1. **Utilisez Git pour tout projet Vercel**
-   - Même si vous utilisez le CLI
-   - Facilite le rollback
+- Même si vous utilisez le CLI
+- Facilite le rollback
 
 2. **Configurez des Environments**
-   - Production
-   - Preview (pour les PRs)
-   - Development
+- Production
+- Preview (pour les PRs)
+- Development
 
 3. **Utilisez vercel.json pour la configuration**
-   - Redirects
-   - Headers
-   - Rewrites
+- Redirects
+- Headers
+- Rewrites
 
 4. **Testez localement d'abord**
    ```powershell
@@ -609,27 +609,27 @@ Error: Build failed with exit code 1
    ```
 
 5. **Surveillez vos quotas**
-   - Dashboard > Usage
-   - 100 GB/mois en gratuit
+- Dashboard > Usage
+- 100 GB/mois en gratuit
 
-### ❌ DON'T - À Éviter
+### DON'T - À Éviter
 
 1. **Ne commitez jamais de secrets**
-   - Utilisez les Environment Variables de Vercel
+- Utilisez les Environment Variables de Vercel
 
 2. **N'utilisez pas Drag & Drop pour la production**
-   - Réservez ça aux prototypes
+- Réservez ça aux prototypes
 
 3. **Ne déployez pas depuis des branches de développement**
-   - Créez une branche `main` stable
+- Créez une branche `main` stable
 
 4. **Ne surchargez pas la bande passante**
-   - Optimisez les images
-   - Utilisez la compression
+- Optimisez les images
+- Utilisez la compression
 
 ---
 
-## 🎯 Workflow Recommandé
+## Workflow Recommandé
 
 ### Pour un Projet Professionnel
 
@@ -674,7 +674,7 @@ vercel inspect [deployment-url]
 
 ---
 
-## 📊 Exercices Pratiques pour les Étudiants
+## Exercices Pratiques pour les Étudiants
 
 ### Exercice 1: Déploiement de Base (20 min)
 1. Créez un compte Vercel
@@ -702,7 +702,7 @@ vercel inspect [deployment-url]
 
 ---
 
-## 📚 Ressources Complémentaires
+## Ressources Complémentaires
 
 ### Documentation Officielle
 - [Vercel Documentation](https://vercel.com/docs)
@@ -720,7 +720,7 @@ vercel inspect [deployment-url]
 
 ---
 
-## ✅ Checklist de Déploiement
+## Checklist de Déploiement
 
 Avant de déployer:
 
@@ -745,19 +745,19 @@ Après déploiement:
 
 ---
 
-## 🎓 Points Clés à Retenir
+## Points Clés à Retenir
 
-1. ⚡ **Vercel est RAPIDE** - Déploiement en secondes
-2. 🔄 **CI/CD automatique** - Push = Deploy
-3. 🌍 **CDN Global** - Performances mondiales
-4. 🆓 **Gratuit pour commencer** - Plan Hobby généreux
-5. 📊 **Analytics inclus** - Suivez vos performances
-6. 🎯 **Preview Deployments** - Testez avant de merger
-7. ⚙️ **Serverless Ready** - Évoluez facilement
+1.  **Vercel est RAPIDE** - Déploiement en secondes
+2.  **CI/CD automatique** - Push = Deploy
+3.  **CDN Global** - Performances mondiales
+4.  **Gratuit pour commencer** - Plan Hobby généreux
+5.  **Analytics inclus** - Suivez vos performances
+6.  **Preview Deployments** - Testez avant de merger
+7.  **Serverless Ready** - Évoluez facilement
 
 ---
 
-## 🎯 Quiz de Compréhension
+## Quiz de Compréhension
 
 1. Quelle est la différence principale entre Vercel et GitHub Pages?
 2. Comment déployer automatiquement à chaque commit?
@@ -769,7 +769,7 @@ Après déploiement:
 
 ---
 
-## 📊 Critères d'Évaluation
+## Critères d'Évaluation
 
 | Critère | Points |
 |---------|--------|
@@ -784,7 +784,7 @@ Après déploiement:
 
 ---
 
-## 🆘 Support
+## Support
 
 **Besoin d'aide?**
 
@@ -801,9 +801,9 @@ Après déploiement:
 
 ---
 
-## 🎯 Prochaine Étape
+## Prochaine Étape
 
 Comparez avec le [Guide GitHub Pages](GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) et choisissez la meilleure solution pour votre projet!
 
-**Conseil:** Utilisez Vercel pour les projets pros, GitHub Pages pour apprendre Git! 🚀
+**Conseil:** Utilisez Vercel pour les projets pros, GitHub Pages pour apprendre Git! 
 

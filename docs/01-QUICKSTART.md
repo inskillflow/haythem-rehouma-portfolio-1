@@ -1,19 +1,19 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 Guide rapide pour lancer le portfolio de **Haythem REHOUMA**.
 
-## ⚡ Démarrage Rapide (5 minutes)
+## Démarrage Rapide (5 minutes)
 
 ### 1. Vérifier les fichiers
 
 Assurez-vous d'avoir tous ces fichiers :
 
 ```
-✅ index.html
-✅ css/styles.css
-✅ js/script.js
-✅ assets/images/haythem-rehouma.jpg
-✅ assets/images/haythem-rehouma-1.JPG
+ index.html
+ css/styles.css
+ js/script.js
+ assets/images/haythem-rehouma.jpg
+ assets/images/haythem-rehouma-1.JPG
 ```
 
 ### 2. Lancer le serveur local
@@ -40,7 +40,7 @@ Visitez : **http://localhost:8000**
 
 ---
 
-## 🎨 Personnalisation Rapide
+## Personnalisation Rapide
 
 ### Changer les couleurs
 Éditez les variables CSS dans `css/styles.css` (lignes 14-20) :
@@ -69,18 +69,18 @@ Ou modifiez les références dans `index.html`.
 
 ---
 
-## 🤖 Tester le Chatbot
+## Tester le Chatbot
 
 1. Lancez le site
 2. Cliquez sur le bouton circulaire bleu en bas à droite
 3. Essayez ces questions :
-   - "What are your specialties?"
-   - "Tell me about copilot"
-   - "Are you available?"
+- "What are your specialties?"
+- "Tell me about copilot"
+- "Are you available?"
 
 ---
 
-## 📤 Déploiement sur GitHub Pages
+## Déploiement sur GitHub Pages
 
 ### 1. Créer un dépôt GitHub
 ```bash
@@ -104,17 +104,17 @@ git push -u origin main
 
 ---
 
-## 🚀 Déploiement sur Netlify (Encore plus simple!)
+## Déploiement sur Netlify (Encore plus simple!)
 
 ### Méthode Drag & Drop
 1. Allez sur [netlify.com](https://netlify.com)
 2. Créez un compte gratuit
 3. Glissez-déposez votre dossier de projet
-4. Votre site est en ligne en 30 secondes ! 🎉
+4. Votre site est en ligne en 30 secondes ! 
 
 ---
 
-## 🐛 Résolution de problèmes
+## Résolution de problèmes
 
 ### Le site ne charge pas les styles
 - Vérifiez que `styles.css` est au même niveau que `index.html`
@@ -136,7 +136,7 @@ git push -u origin main
 
 ---
 
-## 📝 Checklist avant mise en ligne
+## Checklist avant mise en ligne
 
 - [ ] Remplacé les informations personnelles
 - [ ] Remplacé la photo de profil
@@ -151,15 +151,15 @@ git push -u origin main
 
 ---
 
-## 🆘 Besoin d'aide ?
+## Besoin d'aide ?
 
-- 📧 Email : haythem.rehouma@inskillflow.com
-- 📖 Documentation complète : Voir `README.md`
-- 🔒 Licence : Voir `LICENSE.md`
+-  Email : haythem.rehouma@inskillflow.com
+-  Documentation complète : Voir `README.md`
+-  Licence : Voir `LICENSE.md`
 
 ---
 
 © 2024 **Haythem REHOUMA** - Powered by **inskillflow**
 
-**Made with ❤️ for the AI development community**
+**Made with for the AI development community**
 

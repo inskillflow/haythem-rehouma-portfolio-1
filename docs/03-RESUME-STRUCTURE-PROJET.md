@@ -1,4 +1,4 @@
-# 📁 Résumé de la Structure du Projet
+# Résumé de la Structure du Projet
 ## Portfolio Professionnel - Organisation des Fichiers
 
 ---
@@ -7,57 +7,57 @@
 
 ---
 
-## 🎯 Vision d'Ensemble
+## Vision d'Ensemble
 
 Ce projet suit les **meilleures pratiques de l'industrie** pour l'organisation de code web.
 
 ### Avantages de cette Structure
 
-✅ **Séparation des Responsabilités** - HTML, CSS, JS séparés  
-✅ **Scalabilité** - Facile d'ajouter de nouveaux fichiers  
-✅ **Maintenance** - Code facile à trouver et à modifier  
-✅ **Professionnel** - Standard de l'industrie  
-✅ **Collaboration** - Équipes travaillent efficacement  
+ **Séparation des Responsabilités** - HTML, CSS, JS séparés  
+ **Scalabilité** - Facile d'ajouter de nouveaux fichiers  
+ **Maintenance** - Code facile à trouver et à modifier  
+ **Professionnel** - Standard de l'industrie  
+ **Collaboration** - Équipes travaillent efficacement  
 
 ---
 
-## 📂 Structure Complète
+## Structure Complète
 
 ```
 portfolio-haythem-rehouma/
-│
-├── 📄 index.html                          (Point d'entrée principal)
-│
-├── 📁 css/                                (Tous les styles)
-│   └── 📄 styles.css                      (5000+ lignes de CSS)
-│
-├── 📁 js/                                 (Tous les scripts)
-│   └── 📄 script.js                       (780+ lignes de JavaScript)
-│
-├── 📁 assets/                             (Ressources statiques)
-│   ├── 📄 README.md                       (Documentation assets)
-│   └── 📁 images/
-│       ├── 🖼️ haythem-rehouma.jpg        (Photo Hero)
-│       └── 🖼️ haythem-rehouma-1.JPG      (Photo About)
-│
-├── 📄 README.md                           (Documentation principale)
-├── 📄 LICENSE.md                          (Licence & Copyright)
-├── 📄 .gitignore                          (Fichiers à ignorer)
-├── 📄 QUICKSTART.md                       (Démarrage rapide)
-│
-├── 📘 GUIDE-ETUDIANT-PRINCIPAL.md         (Guide complet cours)
-├── 📘 GUIDE-DEPLOIEMENT-GITHUB-PAGES.md   (Guide GitHub Pages)
-├── 📘 GUIDE-DEPLOIEMENT-VERCEL.md         (Guide Vercel)
-└── 📘 RESUME-STRUCTURE-PROJET.md          (Ce fichier)
+
+  index.html                          (Point d'entrée principal)
+
+  css/                                (Tous les styles)
+     styles.css                      (5000+ lignes de CSS)
+
+  js/                                 (Tous les scripts)
+     script.js                       (780+ lignes de JavaScript)
+
+  assets/                             (Ressources statiques)
+     README.md                       (Documentation assets)
+     images/
+         haythem-rehouma.jpg        (Photo Hero)
+         haythem-rehouma-1.JPG      (Photo About)
+
+  README.md                           (Documentation principale)
+  LICENSE.md                          (Licence & Copyright)
+  .gitignore                          (Fichiers à ignorer)
+  QUICKSTART.md                       (Démarrage rapide)
+
+  GUIDE-ETUDIANT-PRINCIPAL.md         (Guide complet cours)
+  GUIDE-DEPLOIEMENT-GITHUB-PAGES.md   (Guide GitHub Pages)
+  GUIDE-DEPLOIEMENT-VERCEL.md         (Guide Vercel)
+  RESUME-STRUCTURE-PROJET.md          (Ce fichier)
 ```
 
 **Total:** ~15 fichiers organisés logiquement
 
 ---
 
-## 📄 Détail de Chaque Fichier
+## Détail de Chaque Fichier
 
-### 🌐 Fichiers Web Principaux
+### Fichiers Web Principaux
 
 #### `index.html` (633 lignes)
 
@@ -127,7 +127,7 @@ portfolio-haythem-rehouma/
 
 ---
 
-### 🖼️ Assets (Ressources)
+### Assets (Ressources)
 
 #### `assets/README.md`
 
@@ -158,7 +158,7 @@ portfolio-haythem-rehouma/
 
 ---
 
-### 📚 Documentation
+### Documentation
 
 #### `README.md` (300+ lignes)
 
@@ -261,7 +261,7 @@ portfolio-haythem-rehouma/
 
 ---
 
-### ⚙️ Configuration
+### Configuration
 
 #### `.gitignore`
 
@@ -293,27 +293,27 @@ node_modules/
 
 ---
 
-## 🔗 Relations Entre les Fichiers
+## Relations Entre les Fichiers
 
 ### Comment Tout S'Interconnecte
 
 ```
 index.html
-    ├── charge → css/styles.css
-    ├── charge → js/script.js
-    └── affiche → assets/images/*.jpg
+     charge → css/styles.css
+     charge → js/script.js
+     affiche → assets/images/*.jpg
 
 css/styles.css
-    ├── définit les styles pour index.html
-    └── utilise les variables CSS
+     définit les styles pour index.html
+     utilise les variables CSS
 
 js/script.js
-    ├── manipule le DOM de index.html
-    ├── utilise les classes CSS de styles.css
-    └── gère l'interactivité
+     manipule le DOM de index.html
+     utilise les classes CSS de styles.css
+     gère l'interactivité
 
 assets/images/
-    └── utilisées par index.html via <img> tags
+     utilisées par index.html via <img> tags
 ```
 
 ### Flux de Chargement
@@ -331,12 +331,12 @@ assets/images/
    ↓
 6. Images chargées à la demande
    ↓
-7. Site prêt! ✅
+7. Site prêt! 
 ```
 
 ---
 
-## 📊 Statistiques du Projet
+## Statistiques du Projet
 
 | Métrique | Valeur |
 |----------|--------|
@@ -351,38 +351,38 @@ assets/images/
 
 ---
 
-## 🎯 Bonnes Pratiques Appliquées
+## Bonnes Pratiques Appliquées
 
-### ✅ Ce Que Nous Faisons Bien
+### Ce Que Nous Faisons Bien
 
 1. **Séparation des Préoccupations**
-   - HTML → Structure
-   - CSS → Présentation
-   - JS → Comportement
+- HTML → Structure
+- CSS → Présentation
+- JS → Comportement
 
 2. **Organisation Logique**
-   - css/ pour les styles
-   - js/ pour les scripts
-   - assets/ pour les médias
+- css/ pour les styles
+- js/ pour les scripts
+- assets/ pour les médias
 
 3. **Documentation Complète**
-   - README pour overview
-   - Guides pour déploiement
-   - Commentaires dans le code
+- README pour overview
+- Guides pour déploiement
+- Commentaires dans le code
 
 4. **Gestion de Version**
-   - .gitignore approprié
-   - Commits réguliers
-   - Messages clairs
+- .gitignore approprié
+- Commits réguliers
+- Messages clairs
 
 5. **Performance**
-   - CSS et JS séparés (cache)
-   - Images optimisées
-   - Code minifiable
+- CSS et JS séparés (cache)
+- Images optimisées
+- Code minifiable
 
 ---
 
-## 🚀 Scalabilité Future
+## Scalabilité Future
 
 ### Comment Ajouter de Nouveaux Fichiers
 
@@ -390,9 +390,9 @@ assets/images/
 
 ```
 css/
-├── styles.css          (existant)
-├── animations.css      (nouveau)
-└── responsive.css      (nouveau)
+ styles.css          (existant)
+ animations.css      (nouveau)
+ responsive.css      (nouveau)
 ```
 
 Puis dans `index.html`:
@@ -406,9 +406,9 @@ Puis dans `index.html`:
 
 ```
 js/
-├── script.js           (existant)
-├── chatbot.js          (nouveau)
-└── animations.js       (nouveau)
+ script.js           (existant)
+ chatbot.js          (nouveau)
+ animations.js       (nouveau)
 ```
 
 Puis dans `index.html`:
@@ -422,33 +422,33 @@ Puis dans `index.html`:
 
 ```
 assets/
-└── images/
-    ├── haythem-rehouma.jpg        (existant)
-    ├── haythem-rehouma-1.JPG      (existant)
-    ├── project-1.jpg              (nouveau)
-    ├── project-2.jpg              (nouveau)
-    └── logos/                      (nouveau dossier)
-        ├── github.svg
-        └── linkedin.svg
+ images/
+     haythem-rehouma.jpg        (existant)
+     haythem-rehouma-1.JPG      (existant)
+     project-1.jpg              (nouveau)
+     project-2.jpg              (nouveau)
+     logos/                      (nouveau dossier)
+         github.svg
+         linkedin.svg
 ```
 
 ---
 
-## 🔍 Comparaison Avant/Après
+## Comparaison Avant/Après
 
-### ❌ Structure Non-Professionnelle
+### Structure Non-Professionnelle
 
 ```
 portfolio/
-├── index.html
-├── style1.css
-├── style2.css
-├── script.js
-├── chat.js
-├── photo.jpg
-├── photo2.jpg
-├── image1.png
-└── logo.svg
+ index.html
+ style1.css
+ style2.css
+ script.js
+ chat.js
+ photo.jpg
+ photo2.jpg
+ image1.png
+ logo.svg
 ```
 
 **Problèmes:**
@@ -457,19 +457,19 @@ portfolio/
 - Pas scalable
 - Amateurisme
 
-### ✅ Structure Professionnelle (Notre Projet)
+### Structure Professionnelle (Notre Projet)
 
 ```
 portfolio/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-└── assets/
-    └── images/
-        ├── haythem-rehouma.jpg
-        └── haythem-rehouma-1.JPG
+ index.html
+ css/
+    styles.css
+ js/
+    script.js
+ assets/
+     images/
+         haythem-rehouma.jpg
+         haythem-rehouma-1.JPG
 ```
 
 **Avantages:**
@@ -480,24 +480,24 @@ portfolio/
 
 ---
 
-## 🎓 Pour les Étudiants
+## Pour les Étudiants
 
 ### Ce Que Vous Devez Retenir
 
 1. **Organisation = Professionnalisme**
-   - Un projet bien organisé impressionne les recruteurs
+- Un projet bien organisé impressionne les recruteurs
 
 2. **Scalabilité**
-   - Pensez toujours à l'avenir du projet
+- Pensez toujours à l'avenir du projet
 
 3. **Documentation**
-   - Le README est aussi important que le code
+- Le README est aussi important que le code
 
 4. **Standards de l'Industrie**
-   - Cette structure est utilisée partout
+- Cette structure est utilisée partout
 
 5. **Maintenabilité**
-   - Vous (ou quelqu'un d'autre) devrez modifier ce code un jour
+- Vous (ou quelqu'un d'autre) devrez modifier ce code un jour
 
 ### Exercice Pratique
 
@@ -521,7 +521,7 @@ git init
 
 ---
 
-## 📚 Ressources Complémentaires
+## Ressources Complémentaires
 
 - [MDN: Project Structure](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
 - [Best Practices for File Organization](https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/)
@@ -535,12 +535,12 @@ git init
 
 ---
 
-## ❓ Questions?
+## Questions?
 
 Si vous ne comprenez pas pourquoi un fichier est là ou comment l'utiliser, consultez:
 
 1. Ce document (RESUME-STRUCTURE-PROJET.md)
 2. README.md (documentation principale)
 3. GUIDE-ETUDIANT-PRINCIPAL.md (cours complet)
-4. Votre professeur! 📧 haythem.rehouma@inskillflow.com
+4. Votre professeur!  haythem.rehouma@inskillflow.com
 

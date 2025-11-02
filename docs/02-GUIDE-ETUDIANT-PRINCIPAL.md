@@ -1,4 +1,4 @@
-# 🎓 Guide Principal pour Étudiants
+# Guide Principal pour Étudiants
 ## Portfolio Professionnel - Développement & Déploiement Web
 
 ---
@@ -10,26 +10,26 @@
 
 ---
 
-## 📋 Vue d'ensemble du Cours
+## Vue d'ensemble du Cours
 
 Ce cours vous apprendra à créer et déployer un **portfolio professionnel moderne** de A à Z, en utilisant les **meilleures pratiques de l'industrie**.
 
-### 🎯 Objectifs d'Apprentissage
+### Objectifs d'Apprentissage
 
 À la fin de ce cours, vous serez capable de:
 
-1. ✅ Comprendre la structure d'un projet web professionnel
-2. ✅ Maîtriser HTML5, CSS3 et JavaScript moderne
-3. ✅ Utiliser Git et GitHub pour le contrôle de version
-4. ✅ Déployer sur GitHub Pages (méthode 1)
-5. ✅ Déployer sur Vercel (méthode 2)
-6. ✅ Configurer un nom de domaine personnalisé
-7. ✅ Optimiser les performances web
-8. ✅ Appliquer les bonnes pratiques de développement
+1.  Comprendre la structure d'un projet web professionnel
+2.  Maîtriser HTML5, CSS3 et JavaScript moderne
+3.  Utiliser Git et GitHub pour le contrôle de version
+4.  Déployer sur GitHub Pages (méthode 1)
+5.  Déployer sur Vercel (méthode 2)
+6.  Configurer un nom de domaine personnalisé
+7.  Optimiser les performances web
+8.  Appliquer les bonnes pratiques de développement
 
 ---
 
-## 📚 Structure du Cours
+## Structure du Cours
 
 ### Module 1: Introduction & Setup (1h)
 - Présentation du projet final
@@ -68,7 +68,7 @@ Ce cours vous apprendra à créer et déployer un **portfolio professionnel mode
 
 ---
 
-## 🛠️ Outils Nécessaires
+## Outils Nécessaires
 
 ### Obligatoires
 
@@ -98,39 +98,39 @@ code --install-extension ritwickdey.LiveServer
 
 ---
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ### Architecture Professionnelle
 
 ```
 portfolio-haythem-rehouma/
-│
-├── index.html                    # Page principale (OBLIGATOIRE)
-│
-├── css/                          # Tous les fichiers CSS
-│   └── styles.css                # Styles principaux
-│
-├── js/                           # Tous les fichiers JavaScript
-│   └── script.js                 # JavaScript principal
-│
-├── assets/                       # Ressources statiques
-│   ├── images/                   # Images
-│   │   ├── haythem-rehouma.jpg
-│   │   └── haythem-rehouma-1.JPG
-│   ├── videos/                   # Vidéos (optionnel)
-│   └── documents/                # PDFs, CV (optionnel)
-│
-├── .gitignore                    # Fichiers à ignorer par Git
-├── README.md                     # Documentation du projet
-├── LICENSE.md                    # Licence
-│
-├── GUIDE-DEPLOIEMENT-GITHUB-PAGES.md    # Guide GitHub Pages
-├── GUIDE-DEPLOIEMENT-VERCEL.md          # Guide Vercel
-├── GUIDE-ETUDIANT-PRINCIPAL.md          # Ce fichier
-└── QUICKSTART.md                        # Démarrage rapide
+
+ index.html                    # Page principale (OBLIGATOIRE)
+
+ css/                          # Tous les fichiers CSS
+    styles.css                # Styles principaux
+
+ js/                           # Tous les fichiers JavaScript
+    script.js                 # JavaScript principal
+
+ assets/                       # Ressources statiques
+    images/                   # Images
+       haythem-rehouma.jpg
+       haythem-rehouma-1.JPG
+    videos/                   # Vidéos (optionnel)
+    documents/                # PDFs, CV (optionnel)
+
+ .gitignore                    # Fichiers à ignorer par Git
+ README.md                     # Documentation du projet
+ LICENSE.md                    # Licence
+
+ GUIDE-DEPLOIEMENT-GITHUB-PAGES.md    # Guide GitHub Pages
+ GUIDE-DEPLOIEMENT-VERCEL.md          # Guide Vercel
+ GUIDE-ETUDIANT-PRINCIPAL.md          # Ce fichier
+ QUICKSTART.md                        # Démarrage rapide
 ```
 
-### 💡 Pourquoi Cette Structure?
+### Pourquoi Cette Structure?
 
 1. **css/** et **js/** séparés → Organisation professionnelle
 2. **assets/** → Tous les médias au même endroit
@@ -139,36 +139,36 @@ portfolio-haythem-rehouma/
 
 ---
 
-## 🗓️ Plan de Cours Détaillé
+## Plan de Cours Détaillé
 
 ### Séance 1: Découverte & Setup (2h)
 
 #### Partie 1: Présentation (30 min)
-- 🎯 Objectifs du cours
-- 📊 Démonstration du projet final
-- 🛠️ Tour des technologies utilisées
+-  Objectifs du cours
+-  Démonstration du projet final
+-  Tour des technologies utilisées
 
 #### Partie 2: Installation (45 min)
-- 💻 Installation de VS Code
-- 📦 Installation de Git
-- 🔧 Configuration des extensions
-- ✅ Vérification de l'environnement
+-  Installation de VS Code
+-  Installation de Git
+-  Configuration des extensions
+-  Vérification de l'environnement
 
 #### Partie 3: Structure du Projet (45 min)
-- 📂 Création de la structure de dossiers
-- 📝 Création des fichiers de base
-- 🔍 Explication de chaque fichier
-- 💼 Bonnes pratiques d'organisation
+-  Création de la structure de dossiers
+-  Création des fichiers de base
+-  Explication de chaque fichier
+-  Bonnes pratiques d'organisation
 
 ---
 
 ### Séance 2: HTML & CSS (2h)
 
 #### Partie 1: HTML Sémantique (60 min)
-- 🏗️ Structure de base HTML5
-- 🏷️ Balises sémantiques (`<header>`, `<section>`, `<article>`)
-- 🔗 Navigation et liens
-- 📄 Sections du portfolio (Hero, About, Projects, Contact)
+-  Structure de base HTML5
+-  Balises sémantiques (`<header>`, `<section>`, `<article>`)
+-  Navigation et liens
+-  Sections du portfolio (Hero, About, Projects, Contact)
 
 **Exercice Pratique:**
 ```html
@@ -180,10 +180,10 @@ portfolio-haythem-rehouma/
 ```
 
 #### Partie 2: CSS Moderne (60 min)
-- 🎨 Variables CSS (`--primary-color`)
-- 📐 Flexbox et Grid
-- 🌈 Gradients et animations
-- 📱 Responsive design
+-  Variables CSS (`--primary-color`)
+-  Flexbox et Grid
+-  Gradients et animations
+-  Responsive design
 
 **Exercice Pratique:**
 ```css
@@ -199,10 +199,10 @@ portfolio-haythem-rehouma/
 ### Séance 3: JavaScript & Interactivité (2h)
 
 #### Partie 1: JavaScript de Base (60 min)
-- 🔤 Variables et constantes
-- 🎯 Sélection d'éléments DOM
-- 👂 Event Listeners
-- 🔄 Manipulation du DOM
+-  Variables et constantes
+-  Sélection d'éléments DOM
+-  Event Listeners
+-  Manipulation du DOM
 
 **Exercice Pratique:**
 ```javascript
@@ -213,10 +213,10 @@ window.addEventListener('scroll', () => {
 ```
 
 #### Partie 2: Chatbot Interactif (60 min)
-- 🤖 Logique du chatbot
-- 💬 Base de connaissances
-- 🎨 Interface utilisateur
-- ⚡ Animations
+-  Logique du chatbot
+-  Base de connaissances
+-  Interface utilisateur
+-  Animations
 
 **Projet:** Créez votre propre chatbot avec vos Q&R!
 
@@ -225,10 +225,10 @@ window.addEventListener('scroll', () => {
 ### Séance 4: Git & GitHub (2h)
 
 #### Partie 1: Fondamentaux Git (60 min)
-- 📚 Qu'est-ce que Git?
-- 🌳 Commits, branches, historique
-- 💾 Staging area
-- 📝 Messages de commit professionnels
+-  Qu'est-ce que Git?
+-  Commits, branches, historique
+-  Staging area
+-  Messages de commit professionnels
 
 **Commandes Essentielles:**
 ```bash
@@ -240,10 +240,10 @@ git log
 ```
 
 #### Partie 2: GitHub (60 min)
-- ☁️ GitHub vs Git
-- 📤 Push et Pull
-- 🔀 Branches et Pull Requests
-- 👥 Collaboration
+-  GitHub vs Git
+-  Push et Pull
+-  Branches et Pull Requests
+-  Collaboration
 
 **Exercice:** Créez votre premier dépôt!
 
@@ -251,13 +251,13 @@ git log
 
 ### Séance 5: Déploiement GitHub Pages (1h)
 
-📖 **Suivez le guide:** [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](GUIDE-DEPLOIEMENT-GITHUB-PAGES.md)
+ **Suivez le guide:** [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](GUIDE-DEPLOIEMENT-GITHUB-PAGES.md)
 
 **Objectifs:**
-- ✅ Comprendre GitHub Pages
-- ✅ Configurer le déploiement
-- ✅ Publier votre site
-- ✅ Obtenir une URL publique
+-  Comprendre GitHub Pages
+-  Configurer le déploiement
+-  Publier votre site
+-  Obtenir une URL publique
 
 **Livrable:** URL de votre site en ligne!
 
@@ -265,19 +265,19 @@ git log
 
 ### Séance 6: Déploiement Vercel (1h)
 
-📖 **Suivez le guide:** [GUIDE-DEPLOIEMENT-VERCEL.md](GUIDE-DEPLOIEMENT-VERCEL.md)
+ **Suivez le guide:** [GUIDE-DEPLOIEMENT-VERCEL.md](GUIDE-DEPLOIEMENT-VERCEL.md)
 
 **Objectifs:**
-- ✅ Comprendre Vercel
-- ✅ Import depuis GitHub
-- ✅ Configuration personnalisée
-- ✅ Analytics et performance
+-  Comprendre Vercel
+-  Import depuis GitHub
+-  Configuration personnalisée
+-  Analytics et performance
 
 **Livrable:** Seconde URL avec Vercel + rapport de comparaison!
 
 ---
 
-## 📊 Évaluations
+## Évaluations
 
 ### Projet Final (100 points)
 
@@ -308,7 +308,7 @@ git log
 
 ---
 
-## ✅ Checklists
+## Checklists
 
 ### Avant Chaque Séance
 
@@ -331,7 +331,7 @@ git log
 
 ---
 
-## 🎯 Exercices Progressifs
+## Exercices Progressifs
 
 ### Semaine 1: Bases
 
@@ -375,7 +375,7 @@ console.log('Hello World!');
 
 ---
 
-## 📖 Ressources d'Apprentissage
+## Ressources d'Apprentissage
 
 ### Documentation Officielle
 
@@ -404,7 +404,7 @@ console.log('Hello World!');
 
 ---
 
-## 🆘 Aide & Support
+## Aide & Support
 
 ### Pendant les Cours
 
@@ -430,7 +430,7 @@ console.log('Hello World!');
 
 ---
 
-## 🏆 Bonus & Aller Plus Loin
+## Bonus & Aller Plus Loin
 
 ### Projets Bonus (+10 points chacun)
 
@@ -448,7 +448,7 @@ console.log('Hello World!');
 
 ---
 
-## 📅 Calendrier Type
+## Calendrier Type
 
 ### Mois 1: Fondamentaux
 
@@ -470,7 +470,7 @@ console.log('Hello World!');
 
 ---
 
-## 🎓 Conseils du Professeur
+## Conseils du Professeur
 
 ### Pour Réussir
 
@@ -482,25 +482,25 @@ console.log('Hello World!');
 
 ### Pièges à Éviter
 
-❌ Copier-coller sans comprendre  
-❌ Sauter les exercices  
-❌ Ne pas commiter régulièrement  
-❌ Ignorer les erreurs de la console  
-❌ Ne pas tester sur mobile  
+ Copier-coller sans comprendre  
+ Sauter les exercices  
+ Ne pas commiter régulièrement  
+ Ignorer les erreurs de la console  
+ Ne pas tester sur mobile  
 
 ### Mindset de Développeur
 
 ```
-🐛 Les bugs sont normaux
-💡 L'échec est une opportunité d'apprendre
-🔍 Google est votre meilleur ami
-👥 La communauté est là pour aider
-🚀 Chaque projet rend le suivant plus facile
+ Les bugs sont normaux
+ L'échec est une opportunité d'apprendre
+ Google est votre meilleur ami
+ La communauté est là pour aider
+ Chaque projet rend le suivant plus facile
 ```
 
 ---
 
-## 📈 Progression Attendue
+## Progression Attendue
 
 ### Niveau Débutant → Intermédiaire
 
@@ -519,19 +519,19 @@ console.log('Hello World!');
 
 ---
 
-## 🎉 Félicitations!
+## Félicitations!
 
 Vous avez maintenant tous les outils pour créer et déployer un portfolio professionnel!
 
 ### Prochaines Étapes
 
-1. ✅ Complétez votre portfolio
-2. ✅ Déployez en ligne
-3. ✅ Partagez sur LinkedIn
-4. ✅ Ajoutez à votre CV
-5. ✅ Continuez à apprendre!
+1.  Complétez votre portfolio
+2.  Déployez en ligne
+3.  Partagez sur LinkedIn
+4.  Ajoutez à votre CV
+5.  Continuez à apprendre!
 
-### Keep Learning 🚀
+### Keep Learning 
 
 - **React** - Framework JavaScript populaire
 - **TypeScript** - JavaScript typé
@@ -547,11 +547,11 @@ Vous avez maintenant tous les outils pour créer et déployer un portfolio profe
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Professeur:** Haythem REHOUMA  
 **Email:** haythem.rehouma@inskillflow.com  
 **Website:** inskillflow.com  
 
-**Bon cours et bon code! 💻✨**
+**Bon cours et bon code! **
 

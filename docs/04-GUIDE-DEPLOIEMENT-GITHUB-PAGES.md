@@ -1,4 +1,4 @@
-# 📘 Guide de Déploiement sur GitHub Pages
+# Guide de Déploiement sur GitHub Pages
 ## Cours Complet pour Étudiants - Étape par Étape
 
 ---
@@ -14,7 +14,7 @@
 
 ---
 
-## 📚 Table des Matières
+## Table des Matières
 
 1. [Qu'est-ce que GitHub Pages?](#1-quest-ce-que-github-pages)
 2. [Préparation du Projet](#2-préparation-du-projet)
@@ -31,17 +31,17 @@
 
 ## 1. Qu'est-ce que GitHub Pages?
 
-### 📖 Définition
+### Définition
 
 **GitHub Pages** est un service d'hébergement de sites web statiques gratuit offert par GitHub. Il permet de:
 
-✅ Héberger des sites HTML/CSS/JavaScript **gratuitement**  
-✅ Obtenir une URL publique automatiquement  
-✅ Bénéficier d'un certificat SSL (HTTPS) gratuit  
-✅ Déployer automatiquement à chaque mise à jour  
-✅ Avoir un contrôle de version complet  
+ Héberger des sites HTML/CSS/JavaScript **gratuitement**  
+ Obtenir une URL publique automatiquement  
+ Bénéficier d'un certificat SSL (HTTPS) gratuit  
+ Déployer automatiquement à chaque mise à jour  
+ Avoir un contrôle de version complet  
 
-### 🎯 Cas d'utilisation
+### Cas d'utilisation
 
 - Portfolios personnels
 - Documentation de projets
@@ -49,7 +49,7 @@
 - Sites vitrines
 - Blogs statiques
 
-### 💰 Coût
+### Coût
 
 **100% GRATUIT** pour les dépôts publics!
 
@@ -57,32 +57,32 @@
 
 ## 2. Préparation du Projet
 
-### 📂 Structure du Projet
+### Structure du Projet
 
 Vérifiez que votre projet a cette structure:
 
 ```
 portfolio/
-├── index.html          ← OBLIGATOIRE (point d'entrée)
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-│       ├── haythem-rehouma.jpg
-│       └── haythem-rehouma-1.JPG
-├── README.md
-└── LICENSE.md
+ index.html          ← OBLIGATOIRE (point d'entrée)
+ css/
+    styles.css
+ js/
+    script.js
+ assets/
+    images/
+        haythem-rehouma.jpg
+        haythem-rehouma-1.JPG
+ README.md
+ LICENSE.md
 ```
 
-### ⚠️ Points Critiques
+### Points Critiques
 
 1. **Le fichier `index.html` DOIT être à la racine** du projet
 2. Tous les chemins doivent être **relatifs** (pas de chemins absolus)
 3. Les noms de fichiers sont **sensibles à la casse** sur les serveurs
 
-### ✅ Checklist de Préparation
+### Checklist de Préparation
 
 ```bash
 # Vérifiez que vous êtes dans le bon dossier
@@ -93,29 +93,29 @@ dir
 ```
 
 Vous devriez voir:
-- ✅ index.html
-- ✅ Dossier css/
-- ✅ Dossier js/
-- ✅ Dossier assets/
+-  index.html
+-  Dossier css/
+-  Dossier js/
+-  Dossier assets/
 
 ---
 
 ## 3. Création du Dépôt GitHub
 
-### 📝 Étape 3.1: Se connecter à GitHub
+### Étape 3.1: Se connecter à GitHub
 
 1. Allez sur [github.com](https://github.com)
 2. Connectez-vous avec votre compte
 3. Si vous n'avez pas de compte, cliquez sur **Sign up** (gratuit)
 
-### ➕ Étape 3.2: Créer un Nouveau Dépôt
+### Étape 3.2: Créer un Nouveau Dépôt
 
 1. Cliquez sur le bouton **"+"** en haut à droite
 2. Sélectionnez **"New repository"**
 
 ![Création repo](https://via.placeholder.com/800x200/0066ff/ffffff?text=New+Repository)
 
-### ⚙️ Étape 3.3: Configuration du Dépôt
+### Étape 3.3: Configuration du Dépôt
 
 Remplissez le formulaire:
 
@@ -123,20 +123,20 @@ Remplissez le formulaire:
 |-------|-------------------|-------------|
 | **Repository name** | `portfolio-haythem-rehouma` | Nom unique, sans espaces |
 | **Description** | `Portfolio professionnel de Haythem REHOUMA - AI Developer` | Description claire |
-| **Visibility** | ✅ **Public** | Obligatoire pour GitHub Pages gratuit |
-| **Initialize** | ❌ **PAS** de README | On va pusher notre code existant |
-| **Add .gitignore** | ❌ **Non** | On a déjà le nôtre |
-| **Choose a license** | ❌ **Non** | On a déjà LICENSE.md |
+| **Visibility** |  **Public** | Obligatoire pour GitHub Pages gratuit |
+| **Initialize** |  **PAS** de README | On va pusher notre code existant |
+| **Add .gitignore** |  **Non** | On a déjà le nôtre |
+| **Choose a license** |  **Non** | On a déjà LICENSE.md |
 
-### 🎯 Exemple de Configuration
+### Exemple de Configuration
 
 ```
 Repository name: portfolio-haythem-rehouma
 Description: Portfolio professionnel - Développeur IA spécialisé en Prompt Engineering
-☑️ Public
-☐ Add a README file
-☐ Add .gitignore
-☐ Choose a license
+ Public
+ Add a README file
+ Add .gitignore
+ Choose a license
 ```
 
 4. Cliquez sur **"Create repository"**
@@ -145,7 +145,7 @@ Description: Portfolio professionnel - Développeur IA spécialisé en Prompt En
 
 ## 4. Configuration de Git
 
-### 🔧 Étape 4.1: Initialiser Git (si pas déjà fait)
+### Étape 4.1: Initialiser Git (si pas déjà fait)
 
 Ouvrez **PowerShell** ou **Git Bash** dans votre dossier de projet:
 
@@ -162,7 +162,7 @@ git init
 Initialized empty Git repository in C:/00-projetsGA/Github-pages/.git/
 ```
 
-### 📝 Étape 4.2: Configurer votre Identité Git (première fois seulement)
+### Étape 4.2: Configurer votre Identité Git (première fois seulement)
 
 ```powershell
 # Configurez votre nom
@@ -175,7 +175,7 @@ git config --global user.email "haythem.rehouma@inskillflow.com"
 git config --list
 ```
 
-### 📁 Étape 4.3: Préparer les Fichiers
+### Étape 4.3: Préparer les Fichiers
 
 ```powershell
 # Ajoutez TOUS les fichiers au staging
@@ -200,7 +200,7 @@ Changes to be committed:
         ...
 ```
 
-### 💾 Étape 4.4: Premier Commit
+### Étape 4.4: Premier Commit
 
 ```powershell
 # Créez le premier commit
@@ -220,7 +220,7 @@ git commit -m "Initial commit - Portfolio Haythem REHOUMA by inskillflow"
 
 ## 5. Push vers GitHub
 
-### 🔗 Étape 5.1: Lier le Dépôt Local au Dépôt GitHub
+### Étape 5.1: Lier le Dépôt Local au Dépôt GitHub
 
 Retournez sur la page de votre dépôt GitHub fraîchement créé. Vous verrez des instructions. Utilisez celles-ci:
 
@@ -242,7 +242,7 @@ origin  https://github.com/VOTRE-USERNAME/portfolio-haythem-rehouma.git (fetch)
 origin  https://github.com/VOTRE-USERNAME/portfolio-haythem-rehouma.git (push)
 ```
 
-### 🚀 Étape 5.2: Pousser le Code
+### Étape 5.2: Pousser le Code
 
 ```powershell
 # Poussez votre code vers GitHub
@@ -286,7 +286,7 @@ To https://github.com/VOTRE-USERNAME/portfolio-haythem-rehouma.git
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
-### ✅ Étape 5.3: Vérification
+### Étape 5.3: Vérification
 
 Rechargez la page de votre dépôt GitHub. Vous devriez voir tous vos fichiers!
 
@@ -294,13 +294,13 @@ Rechargez la page de votre dépôt GitHub. Vous devriez voir tous vos fichiers!
 
 ## 6. Activation de GitHub Pages
 
-### 🌐 Étape 6.1: Accéder aux Paramètres
+### Étape 6.1: Accéder aux Paramètres
 
 1. Sur la page de votre dépôt GitHub
-2. Cliquez sur l'onglet **"Settings"** (⚙️ Paramètres)
+2. Cliquez sur l'onglet **"Settings"** ( Paramètres)
 3. Dans le menu de gauche, cherchez **"Pages"**
 
-### 🔧 Étape 6.2: Configuration de GitHub Pages
+### Étape 6.2: Configuration de GitHub Pages
 
 Dans la section **"Build and deployment"**:
 
@@ -312,30 +312,30 @@ Dans la section **"Build and deployment"**:
 
 Cliquez sur **"Save"**
 
-### ⏱️ Étape 6.3: Attendre le Déploiement
+### ⏱ Étape 6.3: Attendre le Déploiement
 
 GitHub Pages va maintenant:
-1. ✅ Analyser votre code
-2. ✅ Construire le site
-3. ✅ Le déployer sur leurs serveurs
+1.  Analyser votre code
+2.  Construire le site
+3.  Le déployer sur leurs serveurs
 
 **Temps d'attente**: 30 secondes à 5 minutes
 
-### 🎉 Étape 6.4: Récupérer l'URL
+### Étape 6.4: Récupérer l'URL
 
 Une fois le déploiement terminé, vous verrez un message en haut:
 
 ```
-✅ Your site is live at https://VOTRE-USERNAME.github.io/portfolio-haythem-rehouma/
+ Your site is live at https://VOTRE-USERNAME.github.io/portfolio-haythem-rehouma/
 ```
 
-**C'EST L'URL DE VOTRE SITE!** 🎊
+**C'EST L'URL DE VOTRE SITE!** 
 
 ---
 
 ## 7. Vérification du Déploiement
 
-### 🔍 Checklist de Vérification
+### Checklist de Vérification
 
 Visitez votre site et vérifiez:
 
@@ -348,7 +348,7 @@ Visitez votre site et vérifiez:
 - [ ] Le formulaire de contact est visible
 - [ ] Les liens fonctionnent
 
-### 🐛 Si quelque chose ne fonctionne pas
+### Si quelque chose ne fonctionne pas
 
 1. Ouvrez la **Console du navigateur** (F12)
 2. Regardez l'onglet **"Console"** pour les erreurs
@@ -366,7 +366,7 @@ Visitez votre site et vérifiez:
 
 ## 8. Mises à Jour du Site
 
-### 🔄 Workflow de Mise à Jour
+### Workflow de Mise à Jour
 
 Chaque fois que vous modifiez votre site:
 
@@ -386,16 +386,16 @@ git push
 # GitHub Pages se met à jour automatiquement en 1-2 minutes!
 ```
 
-### 📝 Bonnes Pratiques pour les Messages de Commit
+### Bonnes Pratiques pour les Messages de Commit
 
-**❌ Mauvais:**
+** Mauvais:**
 ```bash
 git commit -m "modif"
 git commit -m "update"
 git commit -m "fix"
 ```
 
-**✅ Bon:**
+** Bon:**
 ```bash
 git commit -m "Ajout de la section témoignages"
 git commit -m "Correction du bug du chatbot sur mobile"
@@ -403,7 +403,7 @@ git commit -m "Mise à jour de la photo de profil"
 git commit -m "Optimisation des performances des images"
 ```
 
-### 🎯 Template de Message de Commit
+### Template de Message de Commit
 
 ```
 Type: Description courte (max 50 caractères)
@@ -424,7 +424,7 @@ Exemples de types:
 
 ## 9. Dépannage
 
-### 🚨 Problème: Le site ne se déploie pas
+### Problème: Le site ne se déploie pas
 
 **Solution:**
 
@@ -435,7 +435,7 @@ Exemples de types:
 
 Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les erreurs.
 
-### 🚨 Problème: 404 Page Not Found
+### Problème: 404 Page Not Found
 
 **Causes possibles:**
 
@@ -444,37 +444,37 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
    # Vérifiez la structure
    git ls-files
    ```
-   
+
 2. **Le dépôt est privé**
-   - GitHub Pages gratuit nécessite un dépôt **public**
+- GitHub Pages gratuit nécessite un dépôt **public**
 
 3. **GitHub Pages n'est pas activé**
-   - Revérifiez Settings > Pages
+- Revérifiez Settings > Pages
 
-### 🚨 Problème: Les images ne s'affichent pas
+### Problème: Les images ne s'affichent pas
 
 **Solution:**
 
 ```html
-<!-- ❌ Mauvais (chemin absolu) -->
+<!--  Mauvais (chemin absolu) -->
 <img src="/images/photo.jpg">
 <img src="C:/Users/.../photo.jpg">
 
-<!-- ✅ Bon (chemin relatif) -->
+<!--  Bon (chemin relatif) -->
 <img src="assets/images/photo.jpg">
 <img src="./assets/images/photo.jpg">
 ```
 
-### 🚨 Problème: CSS/JS ne se charge pas
+### Problème: CSS/JS ne se charge pas
 
 **Vérifiez les chemins dans index.html:**
 
 ```html
-<!-- ✅ Correct -->
+<!--  Correct -->
 <link rel="stylesheet" href="css/styles.css">
 <script src="js/script.js"></script>
 
-<!-- ❌ Incorrect -->
+<!--  Incorrect -->
 <link rel="stylesheet" href="/css/styles.css">
 <script src="script.js"></script>
 ```
@@ -483,7 +483,7 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
 
 ## 10. Bonnes Pratiques
 
-### 🎓 Pour les Étudiants
+### Pour les Étudiants
 
 1. **Commitez souvent** - Petit commits > gros commits
 2. **Messages clairs** - Décrivez ce que vous avez fait
@@ -491,13 +491,13 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
 4. **Utilisez .gitignore** - N'envoyez pas de fichiers inutiles
 5. **Documentez** - README.md à jour
 
-### 🔒 Sécurité
+### Sécurité
 
 1. **Ne commitez JAMAIS:**
-   - Mots de passe
-   - Clés API
-   - Tokens d'accès
-   - Informations personnelles sensibles
+- Mots de passe
+- Clés API
+- Tokens d'accès
+- Informations personnelles sensibles
 
 2. **Utilisez .gitignore pour:**
    ```gitignore
@@ -507,12 +507,12 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
    secrets/
    ```
 
-### ⚡ Performance
+### Performance
 
 1. **Optimisez les images:**
-   - Compressez avec [TinyPNG](https://tinypng.com/)
-   - Max 500KB par image
-   - Utilisez WebP si possible
+- Compressez avec [TinyPNG](https://tinypng.com/)
+- Max 500KB par image
+- Utilisez WebP si possible
 
 2. **Minifiez le code** (optionnel pour production):
    ```bash
@@ -527,7 +527,7 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
 
 ---
 
-## 🎯 Résumé - Commandes Essentielles
+## Résumé - Commandes Essentielles
 
 ```powershell
 # Configuration initiale (une seule fois)
@@ -548,7 +548,7 @@ git push
 
 ---
 
-## 📚 Ressources Complémentaires
+## Ressources Complémentaires
 
 ### Documentation Officielle
 - [GitHub Pages Documentation](https://docs.github.com/pages)
@@ -565,7 +565,7 @@ git push
 
 ---
 
-## ✅ Exercice Pratique pour les Étudiants
+## Exercice Pratique pour les Étudiants
 
 ### Mission 1: Déploiement Initial (30 min)
 1. Créez un compte GitHub
@@ -588,7 +588,7 @@ git push
 
 ---
 
-## 📊 Critères d'Évaluation
+## Critères d'Évaluation
 
 | Critère | Points |
 |---------|--------|
@@ -603,7 +603,7 @@ git push
 
 ---
 
-## 🎓 Questions Fréquentes des Étudiants
+## Questions Fréquentes des Étudiants
 
 **Q: Puis-je utiliser un nom de domaine personnalisé?**  
 R: Oui! GitHub Pages supporte les domaines personnalisés. Voir [Custom Domain Documentation](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site).
@@ -625,7 +625,7 @@ R: Settings > Pages > Désactivez GitHub Pages, ou supprimez le dépôt.
 
 ---
 
-## 🎯 Prochaine Étape
+## Prochaine Étape
 
 Passez au [Guide de Déploiement Vercel](GUIDE-DEPLOIEMENT-VERCEL.md) pour apprendre une méthode alternative!
 
