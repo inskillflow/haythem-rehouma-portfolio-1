@@ -32,7 +32,9 @@ python -m http.server 8000
 
 ### Guides Disponibles (9 fichiers)
 
-**Nouveauté:** Tous les guides incluent maintenant des **diagrammes Mermaid** pour visualiser les workflows!
+**Nouveauté:** 
+- 15+ diagrammes Mermaid pour visualiser les workflows
+- 2 guides express (09 & 10) pour déploiement ultra-rapide
 
 ### Par Où Commencer?
 
@@ -44,6 +46,8 @@ python -m http.server 8000
 |  [03-STRUCTURE](docs/03-RESUME-STRUCTURE-PROJET.md) | Organisation du projet | 15 min |
 | [04-GITHUB-PAGES](docs/04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | Déploiement gratuit + 3 diagrammes visuels | 30 min |
 | [05-VERCEL](docs/05-GUIDE-DEPLOIEMENT-VERCEL.md) | Déploiement performant + 5 workflows Mermaid | 20 min |
+| [09-GITHUB-EXPRESS](docs/09-DEPLOIEMENT-GITHUB-PAGES-ESSENTIEL.md) | GitHub Pages - L'essentiel en 5 étapes | 10 min |
+| [10-VERCEL-EXPRESS](docs/10-DEPLOIEMENT-VERCEL-ESSENTIEL.md) | Vercel - L'essentiel en 3 méthodes | 10 min |
 | [07-GIT-COMMANDS](docs/07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git | 10 min |
 | [08-WORKFLOWS](docs/08-DIAGRAMMES-WORKFLOWS.md) | 15+ diagrammes visuels Mermaid | 15 min |
 | [06-LICENSE](docs/06-LICENSE.md) | Copyright & Licence | - |
@@ -254,8 +258,8 @@ Ce projet inclut **8 guides pédagogiques ultra-détaillés** pour apprendre:
 | Lignes de JavaScript | ~780 |
 | Lignes de Documentation | ~4000+ |
 | Total | ~7000+ lignes |
-| Fichiers | 17 |
-| Guides Documentation | 9 |
+| Fichiers | 19 |
+| Guides Documentation | 11 |
 | Diagrammes Mermaid | 15+ |
 | Questions Chatbot | 10+ |
 

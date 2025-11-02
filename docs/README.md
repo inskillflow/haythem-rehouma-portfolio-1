@@ -30,6 +30,13 @@
 | 04 | [GUIDE-DEPLOIEMENT-GITHUB-PAGES.md](04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | Déploiement sur GitHub Pages (gratuit) + 3 diagrammes Mermaid | 30 min | Débutant |
 | 05 | [GUIDE-DEPLOIEMENT-VERCEL.md](05-GUIDE-DEPLOIEMENT-VERCEL.md) | Déploiement sur Vercel (performant) + 5 diagrammes Mermaid | 20 min | Intermédiaire |
 
+### Guides Express (Déploiement Rapide)
+
+| # | Fichier | Description | Temps | Pour Qui |
+|---|---------|-------------|-------|----------|
+| 09 | [DEPLOIEMENT-GITHUB-PAGES-ESSENTIEL.md](09-DEPLOIEMENT-GITHUB-PAGES-ESSENTIEL.md) | GitHub Pages en 5 étapes | 10 min | Pressés |
+| 10 | [DEPLOIEMENT-VERCEL-ESSENTIEL.md](10-DEPLOIEMENT-VERCEL-ESSENTIEL.md) | Vercel en 3 méthodes rapides | 10 min | Pressés |
+
 ### Référence Technique
 
 | # | Fichier | Description | Pour Qui |
@@ -70,10 +77,22 @@
     ↓
 01-QUICKSTART.md
     ↓
-05-GUIDE-DEPLOIEMENT-VERCEL.md
+09-DEPLOIEMENT-GITHUB-PAGES-ESSENTIEL.md
+   OU
+10-DEPLOIEMENT-VERCEL-ESSENTIEL.md
 ```
 
-**Durée totale:** ~30 minutes
+**Durée totale:** ~20 minutes
+
+### Parcours 2bis: Ultra-Pressé (Vercel uniquement)
+
+```
+01-QUICKSTART.md
+    ↓
+10-DEPLOIEMENT-VERCEL-ESSENTIEL.md
+```
+
+**Durée totale:** ~15 minutes
 
 ### Parcours 3: Professeur / Formateur
 
@@ -185,7 +204,7 @@
 
 ---
 
-### 05 - GUIDE DÉPLOIEMENT VERCEL 
+### 05 - GUIDE DÉPLOIEMENT VERCEL
 
 **Déploiement professionnel ultra-rapide**
 
@@ -211,6 +230,42 @@
 
 ---
 
+### 09 - DÉPLOIEMENT GITHUB PAGES ESSENTIEL
+
+**Version ultra-concise du guide GitHub Pages**
+
+Déploiement en 5 étapes simples:
+1. Configuration Git
+2. Initialisation
+3. Création repo GitHub
+4. Push
+5. Activation Pages
+
+**Temps:** 10 minutes chrono  
+**Pour:** Ceux qui veulent l'essentiel sans détails
+
+---
+
+### 10 - DÉPLOIEMENT VERCEL ESSENTIEL
+
+**Version ultra-concise du guide Vercel**
+
+3 méthodes express:
+- Méthode 1: Import GitHub (2 min) - Recommandé
+- Méthode 2: CLI (3 min)
+- Méthode 3: Drag & Drop (1 min)
+
+Inclut:
+- Comparaison rapide
+- Checklist essentielle
+- Commandes clés
+- Problèmes courants
+
+**Temps:** 10 minutes chrono  
+**Pour:** Déploiement rapide sans formation complète
+
+---
+
 ### 06 - LICENSE 
 
 **Protection légale du projet**
@@ -227,8 +282,8 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| Nombre de guides | 9 fichiers |
-| Total lignes | ~5000+ lignes |
+| Nombre de guides | 11 fichiers |
+| Total lignes | ~5500+ lignes |
 | Diagrammes Mermaid | 15+ diagrammes |
 | Temps de lecture total | ~2-3 heures |
 | Exercices pratiques | 15+ |
