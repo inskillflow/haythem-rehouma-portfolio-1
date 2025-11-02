@@ -30,6 +30,107 @@
 
 ---
 
+## Workflow de Déploiement Vercel
+
+### Le code passe TOUJOURS par GitHub d'abord!
+
+```mermaid
+graph TD
+    A[Code Local] -->|git init| B[Repository Git Local]
+    B -->|git add & commit| C[Commits Locaux]
+    C -->|git push| D[GitHub Repository]
+    D -->|Connexion Vercel| E[Vercel Platform]
+    E -->|Import Auto| F[Build Process]
+    F -->|Deploy| G[Edge Network CDN]
+    G -->|URL Publique| H[https://projet.vercel.app]
+    
+    D -.->|Alternative| I[GitHub Pages]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#4078c0,stroke:#333,stroke-width:3px
+    style E fill:#000,stroke:#333,stroke-width:3px
+    style G fill:#0070f3,stroke:#333,stroke-width:2px
+    style H fill:#00d4ff,stroke:#333,stroke-width:2px
+```
+
+### Comparaison des Flux: GitHub Pages vs Vercel
+
+```mermaid
+graph TB
+    subgraph Source["Code Source"]
+        A[Fichiers Locaux]
+    end
+    
+    subgraph GitFlow["Git Workflow (COMMUN)"]
+        B[git add & commit]
+        C[git push]
+    end
+    
+    subgraph GitHub["GitHub Repository (CENTRAL)"]
+        D[Repository main]
+    end
+    
+    subgraph Deploy1["Option 1: GitHub Pages"]
+        E1[Activation Pages]
+        F1[Build GitHub]
+        G1[github.io]
+    end
+    
+    subgraph Deploy2["Option 2: Vercel"]
+        E2[Import depuis GitHub]
+        F2[Build Vercel]
+        G2[vercel.app]
+    end
+    
+    A --> B
+    B --> C
+    C --> D
+    D -->|Méthode 1| E1
+    E1 --> F1
+    F1 --> G1
+    
+    D -->|Méthode 2| E2
+    E2 --> F2
+    F2 --> G2
+    
+    style Source fill:#fff3cd
+    style GitFlow fill:#f0f0f0
+    style GitHub fill:#4078c0,color:#fff
+    style Deploy1 fill:#6cc644,color:#fff
+    style Deploy2 fill:#000,color:#fff
+```
+
+### Flux Détaillé avec CI/CD
+
+```mermaid
+sequenceDiagram
+    participant Dev as Développeur
+    participant Local as Git Local
+    participant GH as GitHub
+    participant Vercel as Vercel
+    participant CDN as Edge Network
+    participant User as Utilisateurs
+    
+    Dev->>Local: Coder & Tester
+    Dev->>Local: git add & commit
+    Dev->>GH: git push origin main
+    Note over GH: Code stocké sur GitHub
+    GH-->>Vercel: Webhook: Nouveau commit détecté
+    Vercel->>GH: Clone le code
+    Vercel->>Vercel: Build automatique
+    Vercel->>CDN: Deploy sur Edge Network
+    CDN-->>User: Site accessible mondialement
+    Note over User: https://projet.vercel.app
+    
+    Dev->>Dev: Nouvelle modification
+    Dev->>GH: git push
+    GH-->>Vercel: Nouveau webhook
+    Vercel->>CDN: Redeploy automatique
+    CDN-->>User: Site mis à jour
+```
+
+---
+
 ## 1. Qu'est-ce que Vercel?
 
 ### Définition
@@ -83,9 +184,24 @@
 
 ## 2. Méthode 1: Import depuis GitHub
 
-### Méthode Recommandée pour les Projets Professionnels
+### Méthode Recommandée pour les Projets Professionnels (CI/CD)
+
+```mermaid
+graph LR
+    A[Code Local] -->|git push| B[GitHub]
+    B -->|Webhook| C[Vercel]
+    C -->|Build| D[Edge CDN]
+    D -->|Deploy| E[Site En Ligne]
+    
+    style A fill:#fff3cd,stroke:#333
+    style B fill:#4078c0,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#000,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#00d4ff,stroke:#333,stroke-width:2px
+```
 
 Cette méthode permet un **déploiement continu automatique** : chaque fois que vous poussez du code vers GitHub, Vercel redéploie automatiquement votre site!
+
+**IMPORTANT:** Le code doit TOUJOURS être sur GitHub en premier!
 
 ### Étape 2.1: Créer un Compte Vercel
 
@@ -561,6 +677,44 @@ Error: Build failed with exit code 1
 
 ## 9. Comparaison Vercel vs GitHub Pages
 
+### Architecture: Les Deux Utilisent GitHub!
+
+```mermaid
+graph TB
+    A[Code Local]
+    A -->|git push| B[GitHub Repository]
+    
+    subgraph Option1["GitHub Pages"]
+        C1[Activation dans Settings]
+        D1[Build par GitHub]
+        E1[Hébergement GitHub]
+        F1[username.github.io]
+    end
+    
+    subgraph Option2["Vercel"]
+        C2[Import depuis GitHub]
+        D2[Build par Vercel]
+        E2[Edge Network Global]
+        F2[projet.vercel.app]
+    end
+    
+    B -->|Option 1| C1
+    C1 --> D1
+    D1 --> E1
+    E1 --> F1
+    
+    B -->|Option 2| C2
+    C2 --> D2
+    D2 --> E2
+    E2 --> F2
+    
+    style B fill:#4078c0,color:#fff,stroke-width:3px
+    style Option1 fill:#6cc644,color:#fff
+    style Option2 fill:#000,color:#fff
+```
+
+### Tableau Comparatif
+
 | Critère | Vercel | GitHub Pages |
 |---------|--------|--------------|
 | ** Vitesse de déploiement** |  10-30 sec | ⏱ 30-300 sec |
@@ -631,22 +785,50 @@ Error: Build failed with exit code 1
 
 ## Workflow Recommandé
 
-### Pour un Projet Professionnel
+### Processus Complet: Local → GitHub → Vercel
+
+```mermaid
+flowchart TD
+    Start([Début]) --> Dev[Développement Local]
+    Dev --> Test{Tests OK?}
+    Test -->|Non| Dev
+    Test -->|Oui| Add[git add .]
+    Add --> Commit[git commit -m '...']
+    Commit --> Push[git push origin main]
+    Push --> GH[GitHub Repository]
+    GH -->|Webhook Auto| Vercel[Vercel Platform]
+    Vercel --> Build[Build Process]
+    Build --> Check{Build OK?}
+    Check -->|Erreur| Fix[Corriger & Re-push]
+    Fix --> Push
+    Check -->|Succès| Deploy[Deploy to CDN]
+    Deploy --> Preview[URL de Preview]
+    Preview --> TestProd{Tests Production?}
+    TestProd -->|OK| Prod[Site en Production]
+    TestProd -->|Problème| Fix
+    Prod --> End([Site en Ligne])
+    
+    style Start fill:#90EE90
+    style GH fill:#4078c0,color:#fff
+    style Vercel fill:#000,color:#fff
+    style Prod fill:#00d4ff
+    style End fill:#90EE90
+```
+
+### Étapes Résumées
 
 ```
 1. Développement Local
    ↓
-2. Commit et Push vers GitHub
+2. Commit et Push vers GitHub (OBLIGATOIRE)
    ↓
-3. Vercel détecte le push
+3. Vercel détecte le push (Webhook)
    ↓
-4. Déploiement automatique
+4. Build automatique
    ↓
-5. Tests sur l'URL de preview
+5. Déploiement sur Edge CDN
    ↓
-6. Merge vers main
-   ↓
-7. Déploiement en production automatique
+6. Site accessible mondialement
 ```
 
 ### Commandes Git + Vercel

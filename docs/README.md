@@ -34,7 +34,8 @@
 
 | # | Fichier | Description | Pour Qui |
 |---|---------|-------------|----------|
-| **07** | [COMMANDES-GIT-REFERENCE.md](07-COMMANDES-GIT-REFERENCE.md) |  Toutes les commandes Git utilisées | Tous |
+| **07** | [COMMANDES-GIT-REFERENCE.md](07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git utilisées | Tous |
+| **08** | [DIAGRAMMES-WORKFLOWS.md](08-DIAGRAMMES-WORKFLOWS.md) | 15+ diagrammes Mermaid des workflows | Tous |
 
 ### Informations Légales
 
@@ -163,9 +164,10 @@
 
 **Déploiement gratuit et illimité**
 
-**800+ lignes de guide ultra-détaillé!**
+**800+ lignes de guide ultra-détaillé avec diagrammes visuels!**
 
 - Qu'est-ce que GitHub Pages?
+- **3 diagrammes Mermaid** (workflow, cycle de mise à jour, architecture)
 - Configuration Git complète
 - Push vers GitHub
 - Activation de Pages
@@ -187,15 +189,16 @@
 
 **Déploiement professionnel ultra-rapide**
 
-**700+ lignes avec 3 méthodes!**
+**700+ lignes avec 3 méthodes et 5 diagrammes visuels!**
 
 - Qu'est-ce que Vercel?
-- Méthode 1: Import depuis GitHub
+- **5 diagrammes Mermaid** (workflows complets, comparaisons, CI/CD)
+- Méthode 1: Import depuis GitHub (Recommandé)
 - Méthode 2: Drag & Drop
 - Méthode 3: CLI (ligne de commande)
 - Configuration avancée
 - Domaine personnalisé
-- Comparaison avec GitHub Pages
+- Comparaison visuelle avec GitHub Pages
 
 **Avantages:**
 -  Déploiement en 10-30 secondes
@@ -224,8 +227,9 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Nombre de guides** | 8 fichiers |
-| **Total lignes** | ~4000+ lignes |
+| **Nombre de guides** | 9 fichiers |
+| **Total lignes** | ~5000+ lignes |
+| **Diagrammes Mermaid** | 15+ diagrammes |
 | **Temps de lecture total** | ~2-3 heures |
 | **Exercices pratiques** | 15+ |
 | **Exemples de code** | 100+ |

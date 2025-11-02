@@ -30,6 +30,10 @@ python -m http.server 8000
 
 ## Documentation Complète
 
+### Guides Disponibles (9 fichiers)
+
+**Nouveauté:** Tous les guides incluent maintenant des **diagrammes Mermaid** pour visualiser les workflows!
+
 ### Par Où Commencer?
 
 | Guide | Description | Temps |
@@ -38,10 +42,11 @@ python -m http.server 8000
 |  [01-QUICKSTART](docs/01-QUICKSTART.md) | Démarrage ultra-rapide | 5 min |
 |  [02-GUIDE-ETUDIANT](docs/02-GUIDE-ETUDIANT-PRINCIPAL.md) | Cours complet (6-8 heures) | - |
 |  [03-STRUCTURE](docs/03-RESUME-STRUCTURE-PROJET.md) | Organisation du projet | 15 min |
-|  [04-GITHUB-PAGES](docs/04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | Déploiement gratuit | 30 min |
-|  [05-VERCEL](docs/05-GUIDE-DEPLOIEMENT-VERCEL.md) | Déploiement performant | 20 min |
-|  [07-GIT-COMMANDS](docs/07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git | 10 min |
-|  [06-LICENSE](docs/06-LICENSE.md) | Copyright & Licence | - |
+| [04-GITHUB-PAGES](docs/04-GUIDE-DEPLOIEMENT-GITHUB-PAGES.md) | Déploiement gratuit + 3 diagrammes visuels | 30 min |
+| [05-VERCEL](docs/05-GUIDE-DEPLOIEMENT-VERCEL.md) | Déploiement performant + 5 workflows Mermaid | 20 min |
+| [07-GIT-COMMANDS](docs/07-COMMANDES-GIT-REFERENCE.md) | Toutes les commandes Git | 10 min |
+| [08-WORKFLOWS](docs/08-DIAGRAMMES-WORKFLOWS.md) | 15+ diagrammes visuels Mermaid | 15 min |
+| [06-LICENSE](docs/06-LICENSE.md) | Copyright & Licence | - |
 
 ** Voir tous les guides:** [docs/README.md](docs/README.md)
 
@@ -249,8 +254,9 @@ Ce projet inclut **8 guides pédagogiques ultra-détaillés** pour apprendre:
 | **Lignes de JavaScript** | ~780 |
 | **Lignes de Documentation** | ~4000+ |
 | **Total** | **~7000+ lignes** |
-| **Fichiers** | 16 |
-| **Guides** | 8 |
+| **Fichiers** | 17 |
+| **Guides Documentation** | 9 |
+| **Diagrammes Mermaid** | 15+ |
 | **Questions Chatbot** | 10+ |
 
 ---

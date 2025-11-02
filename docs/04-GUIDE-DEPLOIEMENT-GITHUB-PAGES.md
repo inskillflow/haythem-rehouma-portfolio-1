@@ -29,6 +29,48 @@
 
 ---
 
+## Workflow de Déploiement
+
+Voici le processus complet de déploiement sur GitHub Pages:
+
+```mermaid
+graph TD
+    A[Code Local] -->|git init| B[Repository Git Local]
+    B -->|git add .| C[Staging Area]
+    C -->|git commit| D[Commits Locaux]
+    D -->|git push| E[GitHub Repository]
+    E -->|Activer Pages| F[GitHub Pages]
+    F -->|Déploiement Auto| G[Site En Ligne]
+    G -->|URL Publique| H[https://username.github.io/repo/]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#4078c0,stroke:#333,stroke-width:3px
+    style F fill:#6cc644,stroke:#333,stroke-width:3px
+    style H fill:#0366d6,stroke:#333,stroke-width:2px
+```
+
+### Flux Simplifié
+
+```mermaid
+sequenceDiagram
+    participant Dev as Développeur
+    participant Local as Git Local
+    participant GH as GitHub
+    participant Pages as GitHub Pages
+    participant User as Utilisateurs
+    
+    Dev->>Local: git init & commit
+    Dev->>Local: git add .
+    Dev->>Local: git commit -m "..."
+    Dev->>GH: git push origin main
+    GH-->>Pages: Détection automatique
+    Pages->>Pages: Build & Deploy
+    Pages-->>User: Site accessible
+    Note over User: https://username.github.io/repo/
+```
+
+---
+
 ## 1. Qu'est-ce que GitHub Pages?
 
 ### Définition
@@ -366,6 +408,24 @@ Visitez votre site et vérifiez:
 
 ## 8. Mises à Jour du Site
 
+### Diagramme du Cycle de Mise à Jour
+
+```mermaid
+graph LR
+    A[Modifier Code] --> B[git add .]
+    B --> C[git commit]
+    C --> D[git push]
+    D --> E[GitHub]
+    E --> F[GitHub Pages]
+    F --> G[Site Mis à Jour]
+    G -.->|1-2 minutes| H[Visible en ligne]
+    
+    style A fill:#fff3cd,stroke:#333
+    style E fill:#4078c0,stroke:#333,stroke-width:2px
+    style F fill:#6cc644,stroke:#333,stroke-width:2px
+    style H fill:#d4edda,stroke:#333
+```
+
 ### Workflow de Mise à Jour
 
 Chaque fois que vous modifiez votre site:
@@ -524,6 +584,53 @@ Vous verrez l'historique des déploiements. Cliquez sur le dernier pour voir les
    npm install -g terser
    terser js/script.js -o js/script.min.js
    ```
+
+---
+
+## Architecture Complète
+
+```mermaid
+graph TB
+    subgraph Local["Environnement Local"]
+        A[index.html]
+        B[css/styles.css]
+        C[js/script.js]
+        D[assets/]
+    end
+    
+    subgraph Git["Git Local"]
+        E[.git/]
+        F[commits]
+    end
+    
+    subgraph GitHub["GitHub.com"]
+        G[Remote Repository]
+        H[Branch: main]
+    end
+    
+    subgraph Pages["GitHub Pages"]
+        I[Build Process]
+        J[CDN]
+        K[Site Déployé]
+    end
+    
+    A --> E
+    B --> E
+    C --> E
+    D --> E
+    E --> F
+    F -->|git push| G
+    G --> H
+    H -->|Automatique| I
+    I --> J
+    J --> K
+    K -->|HTTPS| L[Utilisateurs]
+    
+    style Local fill:#fff3cd
+    style Git fill:#f0f0f0
+    style GitHub fill:#4078c0,color:#fff
+    style Pages fill:#6cc644,color:#fff
+```
 
 ---
 
